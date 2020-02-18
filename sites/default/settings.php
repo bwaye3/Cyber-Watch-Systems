@@ -756,8 +756,8 @@ $settings['entity_update_backup'] = TRUE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array(
-  'database' => 'cyberwatch',
-  'username' => 'root',
+  'database' => 'cyberwatchsystem_cyberwatch',
+  'username' => 'cyberwatchsystem_root',
   'password' => '!eG13zz63$$$',
   'prefix' => '',
   'host' => 'localhost',
@@ -766,3 +766,6 @@ $databases['default']['default'] = array(
   'driver' => 'mysql',
 );
 $settings['config_sync_directory'] = 'sites/default/files/config_MFmKIXnLPgIC7yDATMT-NCAJ7ugTQEAIoSL3zPSneBuoDyjWFENG9kMFAhq72UzI87EzGrEUzg/sync';
+
+if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {include $app_root . '/' . $site_path . '/settings.local.php';
+ }
