@@ -11,7 +11,7 @@
 }
 .navigation .gva_menu > li > a:hover,
 .navigation .gva_menu > li > a:focus {
-  color: #70e100 !important;
+  color: #70e800 !important;
   text-decoration: none !important;
 }
 
@@ -23,13 +23,13 @@
 }
 
 .navigation .gva_menu > li:hover > a {
-  color: #70e100;
+  color: #70e800;
   text-decoration: none !important;
 }
 
 .navigation .gva_menu > li > a:hover::before {
   content: '';
-  background: #70e100;
+  background: #70e800;
   width: 40px;
   height: 2px;
   position: absolute;
@@ -45,7 +45,7 @@
 .navigation .gva_menu .sub-menu,
 .navigation .gva_menu .sub-menu a {
   background-color: transparent;
-  color: #70e100 !important;
+  color: #70e800 !important;
   border-top: none;
   padding: 0 0 10px;
 }
@@ -55,7 +55,7 @@
 }
 
 .block .block-title > span {
-  color: #70e100 !important;
+  color: #70e800 !important;
 }
 
 .footer {
@@ -79,7 +79,7 @@ footer .block .block-title > span {
 }
 
 .gva-search-region .icon {
-  color: #70e100 !important;
+  color: #70e800 !important;
 }
 
 .icon-line {
@@ -99,11 +99,11 @@ footer .block .block-title > span {
 }
 
 .green {
-  color: #70e100 !important;
+  color: #70e800 !important;
 }
 
 .phone-main {
-  color: #70e100 !important;
+  color: #70e800 !important;
   font-weight: 300 !important;
   margin: 0 0 0 10px;
   font-size: .7rem;
@@ -150,6 +150,155 @@ footer .navigation .gva_menu > li > a:hover::before {
 footer p {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.white-text,
+.white-text p,
+h1, h2, h3, h4, h5 ,h6 {
+  color: #fff !important;
+}
+
+.green-text,
+.green-text p,
+h1, h2, h3, h4, h5 ,h6 {
+  color: #70e800 !important;
+}
+
+.gsc-button.medium,
+.gsc-button.medium  a {
+  font-size: .75rem !important;
+  padding: 5px 35px;
+  border-radius: 25px;
+  border: 1px solid #70e800 !important;
+  margin: 10px 0 20px;
+  color: #70e800 !important;
+}
+
+.gsc-button.medium:hover,
+.gsc-button.medium:focus {
+  background: #70e800 !important;
+  border: 1px solid #70e800 !important;
+  color: #000 !important;
+  text-decoration: none !important;
+}
+
+.text-light .block .block-title > span {
+  color: #fff !important;
+  font-size: 1.4rem;
+}
+
+.vertical-navigation,
+#vertical-navigation {
+  display: block !important;
+}
+
+
+.vertical-navigation .navigation .gva_menu > li {
+  display: block;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+
+.vertical-navigation .navigation .gva_menu > li > a:hover::before {
+  display: none;
+}
+
+.vertical-navigation .navigation .gva_menu > li > a:hover::after {
+  content: '>'' Learn More';
+  margin: 0 0 0 5px;
+}
+
+.vertical-navigation .navigation .gva_menu > li > a {
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 4px 0;
+  text-align: left;
+  color: #fff !important;
+  text-transform: inherit;
+  font-family: Open Sans !important;
+}
+
+.vertical-navigation .navigation .gva_menu > li > a:hover,
+.vertical-navigation .navigation .gva_menu > li > a:focus {
+  color: #70e800 !important;
+}
+
+.line-spacer {
+  padding: 5px 0 ;
+}
+
+.button-center {
+  width: auto;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: auto;
+  transform: translate(-50%, -50%);
+  margin: 25px 0 !important;
+}
+
+.green-text.dir {
+  font-size: 200%;
+  font-family: Russo One !important;
+  font-weight: 600;
+  margin: 0 10px 0 0;
+}
+
+.webform-submission-form .form-actions input.form-submit {
+  background: #000!important;
+  color: #70e800!important;
+  border: 1px solid #70e800!important;
+}
+
+.webform-submission-form .form-actions input.form-submit:hover {
+  background: #70e800!important;
+  color: #000!important;
+  border: 1px solid #70e800!important;
+}
+
+.text-light .webform-submission-form .form-item input,
+.text-light .webform-submission-form .form-item textarea {
+  background: none;
+  border-color: transparent;
+  border-bottom: 1px solid #888;
+}
+
+.webform-submission-form .form-item input,
+.webform-submission-form .form-item textarea,
+.webform-submission-form .form-item select {
+  border-radius: 0;
+}
+
+.webform-submission-form .form-item select {
+  background: none;
+  border: none;
+  border: 1px solid #888;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: transparent;
+  border-radius: 0;
+  color: inherit;
+}
+
+.webform-submission-form .form-item  select {
+  background-image: linear-gradient(45deg, transparent 50%, #70e800 50%), linear-gradient(135deg, #70e800 50%, transparent 50%), linear-gradient(to right, #70e800, #70e800);
+  background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
+  background-size: 5px 5px, 5px 5px, 1px 1.5em;
+  background-repeat: no-repeat;
+}
+
+.form-select {
+  display: block;
+  border-radius: 0;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.form-select::-ms-expand {
+  display: none;
+  background: transparent;
 }
 
 @media (max-width: 991.98px) {
