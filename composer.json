@@ -31,6 +31,7 @@
         "drupal/devel": "^2.1",
         "drupal/entity_reference_revisions": "^1.7",
         "drupal/features": "^3.8",
+        "drupal/field_formatter": "^1.2",
         "drupal/field_formatter_class": "^1.1",
         "drupal/honeypot": "^1.30",
         "drupal/image_url_formatter": "^1.0@beta",

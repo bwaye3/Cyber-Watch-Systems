@@ -279,6 +279,8 @@ a.disable {
   margin-bottom: 35px;
   position: relative;
   background-image: url('/themes/gavias_edupia/images/breadcrumb.jpg');
+  background-position: center center !important;
+  background-repeat: repeat-x !important;
 }
 
 @media (max-width: 991.98px) {

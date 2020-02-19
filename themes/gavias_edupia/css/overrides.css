@@ -192,7 +192,6 @@ h1, h2, h3, h4, h5, h6 {
   display: block !important;
 }
 
-
 .vertical-navigation .navigation .gva_menu > li {
   display: block;
   color: #fff;
@@ -319,6 +318,56 @@ h1, h2, h3, h4, h5, h6 {
   transition: box-shadow .45s;
   box-shadow: 0 8px 17px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
 }
+
+/*********************** Demo - 9 *******************/
+.box9 {
+ position: relative
+}
+.box9 img {
+  width: 100%;
+  height: auto;
+  padding: 70px 50px;
+  margin: 10px 0;
+}
+.box9:hover img {opacity: .5}
+.box9 .box-content {padding: 30px 10px 30px 0;background: rgba(0, 0, 0, .65);position: absolute;top: 0;left: 0;bottom: 0;right: 0;opacity: 0}
+.box9:hover .box-content {opacity: 1;background: #262626; border-radius: 25px;}
+.box10 .icon li a, .box9 .icon li a {line-height: 35px;border-radius: 50%}
+.box9 .icon {list-style: none;padding: 0;margin: 0;position: absolute;top: 50%}
+.box9 .icon li {display: inline-block;opacity: 0;transform: translateY(40px)}
+.box9:hover .icon li {opacity: 1;transform: translateY(0)}
+.box9:hover .icon li:first-child {transition-delay: .1s}
+.box9:hover .icon li:nth-child(2) {transition-delay: .2s}
+.box9 .icon li a {display: block;width: 35px;height: 35px;background: #f39c12;font-size: 20px;color: #000;margin-right: 5px;transition: all .35s ease 0s}
+.box9 .icon a:hover {background: #fff}
+
+.card  {border-radius: 25px !important;}
+
+.box9 p {
+  color: #fff !important;
+}
+
+.box9 .title {
+  font-weight: 600;
+  margin: 5px 0;
+  font-size: 35px;
+}
+.gsc-button.medium.w-100.text-align-right.no-border {
+  border: none !important;
+}
+
+.gsc-button.medium.w-100.text-align-right.no-border:hover,
+.gsc-button.medium.w-100.text-align-right.no-border:focus {
+ background: transparent !important;
+  text-decoration: underline;
+  color: #fff !important;
+}
+
+/********/
+@media only screen and (max-width: 990px) {
+  .box9 {margin-bottom: 20px}
+}
+
 
 @media (max-width: 991.98px) {
   header .area-main-menu .gva-search-region {
