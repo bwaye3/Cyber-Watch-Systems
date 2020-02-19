@@ -278,7 +278,7 @@ a.disable {
   padding: 68px 0;
   margin-bottom: 35px;
   position: relative;
-  background-image: none !important;
+  background-image: url('/themes/gavias_edupia/images/breadcrumb.jpg');
 }
 
 @media (max-width: 991.98px) {
@@ -9562,11 +9562,15 @@ div.resizable-textarea textarea {
 
 .block {
   background: transparent;
-  margin-bottom: 30px;
+  margin-bottom: inherit;
 }
 
 .block .block {
   margin-bottom: 0 !important;
+}
+
+#block-contactus .block {
+  margin-bottom: 0 !important;;
 }
 
 .block .block-title {

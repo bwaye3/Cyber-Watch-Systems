@@ -59,7 +59,7 @@
               autoplayHoverPause: auto_play_hover,
               navText: [ '<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>' ],
               autoHeight: false,
-              loop: loop, 
+              loop: loop,
               dots: pagination,
               rewind: rewind_nav,
               smartSpeed: speed,
@@ -89,11 +89,17 @@
                   }
               }
           });
-            
-       }); 
-    }  
+
+       });
+    }
 
     init_carousel_owl();
+
+    $(".page-title").html(function(){
+      var text= $(this).text().trim().split(" ");
+      var first = text.shift();
+      return (text.length > 0 ? "<span class='green-title'>"+ first + "</span> " : first) + text.join(" ");
+    });
 
     //===== Gallery ============
     $("a[data-rel^='prettyPhoto[g_gal]']").prettyPhoto({
@@ -109,7 +115,7 @@
     //===== Gallery ============
     $('.gallery-popup').each(function(){
       $(this).magnificPopup({
-        delegate: 'a.image-popup', 
+        delegate: 'a.image-popup',
         type: 'image',
         gallery: {
           enabled: true
@@ -118,11 +124,11 @@
     });
 
     var wow = new WOW({
-      boxClass:     'wow',     
-      animateClass: 'animated', 
-      offset:       0,          
-      mobile:       false,      
-      live:         false,      
+      boxClass:     'wow',
+      animateClass: 'animated',
+      offset:       0,
+      mobile:       false,
+      live:         false,
     });
     wow.init();
 
@@ -148,7 +154,7 @@
       itemSelector : '.item-masory',
       gutterWidth: 0,
       columnWidth: 1,
-    }); 
+    });
   });
 
   $('.gva-search-region .icon').on('click',function(e){
@@ -178,7 +184,7 @@
         $('.gva-offcanvas-mobile').removeClass('show-view');
     }else{
         $(this).addClass('show-view');
-       $('.gva-offcanvas-mobile').addClass('show-view'); 
+       $('.gva-offcanvas-mobile').addClass('show-view');
     }
     e.stopPropagation();
   })
@@ -188,7 +194,7 @@
   });
 
   /*========== Click Show Sub Menu ==========*/
- 
+
   $('.gva-navigation a').on('click','.nav-plus',function(){
       if($(this).hasClass('nav-minus') == false){
           $(this).parent('a').parent('li').find('> ul').slideDown();
@@ -255,7 +261,7 @@
         itemSelector : '.item-masory',
         gutterWidth: 0,
         columnWidth: 1,
-      }); 
+      });
     });
   });
 
@@ -276,7 +282,7 @@
       });
     },{accX: 0, accY: 0});
   });
-  
+
   $('.gva-user-region .icon').on('click',function(e){
     if($(this).parents('.gva-user-region').hasClass('show')){
       $(this).parents('.gva-user-region').removeClass('show');
@@ -295,13 +301,24 @@
       setTimeout(function() { $this.animate({width: $this.attr("data-progress-animation")}, 800);}, delay);
     }, {accX: 0, accY: -50});
   });
-  
+
+
+    /*
+    Version with plugins you can find here
+        https://codepen.io/mel/pen/uAlIn
+
+       Plugin can be download from here
+       http://4u.pw/js/jquery.flword.js
+  */
+
+
+
   /*----------------------------------------------------*/
   /*  Pie Charts
   /*----------------------------------------------------*/
   var pieChartClass = 'pieChart',
         pieChartLoadedClass = 'pie-chart-loaded';
-    
+
   function initPieCharts() {
     var chart = $('.' + pieChartClass);
     chart.each(function() {
@@ -338,7 +355,7 @@
       var sticky = new Waypoint.Sticky({
         element: $('.gv-sticky-menu')[0]
     });
-  }  
+  }
 
   var animationDimensions = function() {
     var gavias_height = $(window).height();
@@ -378,7 +395,7 @@
   $(window).on("debouncedresize", function(event) {
     footerFixed();
   });
-  
+
     $('.gsc-tabs-views-ajax ul[data-load="ajax"] a').on('click', function(){
       var $href = $(this).data('panel');
       var self = $(this);
@@ -444,7 +461,7 @@
 
   });
 
-  
+
   $(window).on('load', function(){
     if($('.row-overlay').length > 0){
       var html_help = $('div.help').html();

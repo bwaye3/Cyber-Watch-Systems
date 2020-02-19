@@ -154,18 +154,18 @@ footer p {
 
 .white-text,
 .white-text p,
-h1, h2, h3, h4, h5 ,h6 {
+h1, h2, h3, h4, h5, h6 {
   color: #fff !important;
 }
 
 .green-text,
 .green-text p,
-h1, h2, h3, h4, h5 ,h6 {
+h1, h2, h3, h4, h5, h6 {
   color: #70e800 !important;
 }
 
 .gsc-button.medium,
-.gsc-button.medium  a {
+.gsc-button.medium a {
   font-size: .75rem !important;
   padding: 5px 35px;
   border-radius: 25px;
@@ -205,7 +205,7 @@ h1, h2, h3, h4, h5 ,h6 {
 }
 
 .vertical-navigation .navigation .gva_menu > li > a:hover::after {
-  content: '>'' Learn More';
+  content: '>' ' Learn More';
   margin: 0 0 0 5px;
 }
 
@@ -226,7 +226,7 @@ h1, h2, h3, h4, h5 ,h6 {
 }
 
 .line-spacer {
-  padding: 5px 0 ;
+  padding: 5px 0;
 }
 
 .button-center {
@@ -247,22 +247,23 @@ h1, h2, h3, h4, h5 ,h6 {
 }
 
 .webform-submission-form .form-actions input.form-submit {
-  background: #000!important;
-  color: #70e800!important;
-  border: 1px solid #70e800!important;
+  background: #000 !important;
+  color: #70e800 !important;
+  border: 1px solid #70e800 !important;
 }
 
 .webform-submission-form .form-actions input.form-submit:hover {
-  background: #70e800!important;
-  color: #000!important;
-  border: 1px solid #70e800!important;
+  background: #70e800 !important;
+  color: #000 !important;
+  border: 1px solid #70e800 !important;
 }
 
-.text-light .webform-submission-form .form-item input,
-.text-light .webform-submission-form .form-item textarea {
+.webform-submission-form .form-item input,
+.webform-submission-form .form-item textarea {
   background: none;
   border-color: transparent;
   border-bottom: 1px solid #888;
+  color: #fff !important;
 }
 
 .webform-submission-form .form-item input,
@@ -282,11 +283,15 @@ h1, h2, h3, h4, h5 ,h6 {
   color: inherit;
 }
 
-.webform-submission-form .form-item  select {
+.webform-submission-form .form-item select {
   background-image: linear-gradient(45deg, transparent 50%, #70e800 50%), linear-gradient(135deg, #70e800 50%, transparent 50%), linear-gradient(to right, #70e800, #70e800);
   background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
   background-size: 5px 5px, 5px 5px, 1px 1.5em;
   background-repeat: no-repeat;
+}
+
+.webform-submission-form .form-actions {
+  margin: 30px 0 0;
 }
 
 .form-select {
@@ -299,6 +304,20 @@ h1, h2, h3, h4, h5 ,h6 {
 .form-select::-ms-expand {
   display: none;
   background: transparent;
+}
+
+.breadcrumb-content-inner .gva-breadcrumb-content .page-title {
+  color: #fff !important;
+}
+
+.green-title {
+  color: #77e800 !important;
+}
+
+.card:hover {
+  -webkit-transition: box-shadow .45s;
+  transition: box-shadow .45s;
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
 }
 
 @media (max-width: 991.98px) {
