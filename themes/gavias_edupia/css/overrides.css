@@ -11,7 +11,7 @@
 }
 .navigation .gva_menu > li > a:hover,
 .navigation .gva_menu > li > a:focus {
-  color: #70e800 !important;
+  color: #80c341 !important;
   text-decoration: none !important;
 }
 
@@ -23,13 +23,13 @@
 }
 
 .navigation .gva_menu > li:hover > a {
-  color: #70e800;
+  color: #80c341;
   text-decoration: none !important;
 }
 
 .navigation .gva_menu > li > a:hover::before {
   content: '';
-  background: #70e800;
+  background: #80c341;
   width: 40px;
   height: 2px;
   position: absolute;
@@ -45,7 +45,7 @@
 .navigation .gva_menu .sub-menu,
 .navigation .gva_menu .sub-menu a {
   background-color: transparent;
-  color: #70e800 !important;
+  color: #80c341 !important;
   border-top: none;
   padding: 0 0 10px;
 }
@@ -55,7 +55,7 @@
 }
 
 .block .block-title > span {
-  color: #70e800 !important;
+  color: #80c341 !important;
 }
 
 .footer {
@@ -79,7 +79,7 @@ footer .block .block-title > span {
 }
 
 .gva-search-region .icon {
-  color: #70e800 !important;
+  color: #80c341 !important;
 }
 
 .icon-line {
@@ -99,11 +99,11 @@ footer .block .block-title > span {
 }
 
 .green {
-  color: #70e800 !important;
+  color: #80c341 !important;
 }
 
 .phone-main {
-  color: #70e800 !important;
+  color: #80c341 !important;
   font-weight: 300 !important;
   margin: 0 0 0 10px;
   font-size: .7rem;
@@ -161,7 +161,7 @@ h1, h2, h3, h4, h5, h6 {
 .green-text,
 .green-text p,
 h1, h2, h3, h4, h5, h6 {
-  color: #70e800 !important;
+  color: #80c341 !important;
 }
 
 .gsc-button.medium,
@@ -169,15 +169,15 @@ h1, h2, h3, h4, h5, h6 {
   font-size: .75rem !important;
   padding: 5px 35px;
   border-radius: 25px;
-  border: 1px solid #70e800 !important;
+  border: 1px solid #80c341 !important;
   margin: 10px 0 20px;
-  color: #70e800 !important;
+  color: #80c341 !important;
 }
 
 .gsc-button.medium:hover,
 .gsc-button.medium:focus {
-  background: #70e800 !important;
-  border: 1px solid #70e800 !important;
+  background: #80c341 !important;
+  border: 1px solid #80c341 !important;
   color: #000 !important;
   text-decoration: none !important;
 }
@@ -221,7 +221,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .vertical-navigation .navigation .gva_menu > li > a:hover,
 .vertical-navigation .navigation .gva_menu > li > a:focus {
-  color: #70e800 !important;
+  color: #80c341 !important;
 }
 
 .line-spacer {
@@ -247,14 +247,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .webform-submission-form .form-actions input.form-submit {
   background: #000 !important;
-  color: #70e800 !important;
-  border: 1px solid #70e800 !important;
+  color: #80c341 !important;
+  border: 1px solid #80c341 !important;
 }
 
 .webform-submission-form .form-actions input.form-submit:hover {
-  background: #70e800 !important;
+  background: #80c341 !important;
   color: #000 !important;
-  border: 1px solid #70e800 !important;
+  border: 1px solid #80c341 !important;
 }
 
 .webform-submission-form .form-item input,
@@ -283,7 +283,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .webform-submission-form .form-item select {
-  background-image: linear-gradient(45deg, transparent 50%, #70e800 50%), linear-gradient(135deg, #70e800 50%, transparent 50%), linear-gradient(to right, #70e800, #70e800);
+  background-image: linear-gradient(45deg, transparent 50%, #80c341 50%), linear-gradient(135deg, #80c341 50%, transparent 50%), linear-gradient(to right, #80c341, #80c341);
   background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
   background-size: 5px 5px, 5px 5px, 1px 1.5em;
   background-repeat: no-repeat;
@@ -310,7 +310,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .green-title {
-  color: #77e800 !important;
+  color: #80c341 !important;
 }
 
 .card:hover {
@@ -374,7 +374,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   margin: 5px 0;
   font-size: 35px;
-  color: #77e800 !important;
+  color: #80c341 !important;
 }
 .gsc-button.medium.w-100.text-align-right.no-border {
   border: none !important;
