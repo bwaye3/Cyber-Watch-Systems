@@ -10,6 +10,11 @@ sites/development.services.yml
 sites/default/settings.local.php
 sites/default/settings.php
 sites/default/files/php/twig/
+/sites/default/settings.php
+sites/default/files/php/twig/.htaccess
+/sites/default/files/php/twig/.htaccess
+
+
 
 
 
