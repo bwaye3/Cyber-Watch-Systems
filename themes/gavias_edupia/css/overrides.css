@@ -321,25 +321,48 @@ h1, h2, h3, h4, h5, h6 {
 
 /*********************** Demo - 9 *******************/
 .box9 {
- position: relative
+ position: relative;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
 }
 .box9 img {
   width: 100%;
   height: auto;
   padding: 70px 50px;
   margin: 10px 0;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
 }
-.box9:hover img {opacity: .5}
-.box9 .box-content {padding: 30px 10px 30px 0;background: rgba(0, 0, 0, .65);position: absolute;top: 0;left: 0;bottom: 0;right: 0;opacity: 0}
-.box9:hover .box-content {opacity: 1;background: #262626; border-radius: 25px;}
-.box10 .icon li a, .box9 .icon li a {line-height: 35px;border-radius: 50%}
-.box9 .icon {list-style: none;padding: 0;margin: 0;position: absolute;top: 50%}
-.box9 .icon li {display: inline-block;opacity: 0;transform: translateY(40px)}
-.box9:hover .icon li {opacity: 1;transform: translateY(0)}
-.box9:hover .icon li:first-child {transition-delay: .1s}
-.box9:hover .icon li:nth-child(2) {transition-delay: .2s}
-.box9 .icon li a {display: block;width: 35px;height: 35px;background: #f39c12;font-size: 20px;color: #000;margin-right: 5px;transition: all .35s ease 0s}
-.box9 .icon a:hover {background: #fff}
+.box9:hover img {
+  opacity: .5;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+.box9 .box-content {
+  padding: 30px 10px 30px 0;
+  background: rgba(0, 0, 0, .65);
+  position: absolute;
+  top: 0;left: 0;bottom: 0;right: 0;opacity: 0;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+.box9:hover .box-content {
+  opacity: 1;
+  background: #262626;
+  border-radius: 25px;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
 
 .card  {border-radius: 25px !important;}
 
@@ -351,6 +374,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   margin: 5px 0;
   font-size: 35px;
+  color: #77e800 !important;
 }
 .gsc-button.medium.w-100.text-align-right.no-border {
   border: none !important;
@@ -361,6 +385,14 @@ h1, h2, h3, h4, h5, h6 {
  background: transparent !important;
   text-decoration: underline;
   color: #fff !important;
+}
+
+.views-col {
+  margin: 0 0 25px;
+}
+
+.texas-dir-wrapper .views-col {
+  margin: 0 0 25px !important;
 }
 
 /********/
