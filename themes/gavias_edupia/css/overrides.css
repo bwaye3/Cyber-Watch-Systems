@@ -44,10 +44,15 @@
 
 .navigation .gva_menu .sub-menu,
 .navigation .gva_menu .sub-menu a {
-  background-color: transparent;
-  color: #80c341 !important;
+  background-color: rgba(0,0,0,0.6);
+  color: #fff !important;
   border-top: none;
   padding: 0 0 10px;
+}
+
+.navigation .gva_menu .sub-menu a:hover,
+.navigation .gva_menu .sub-menu a:focus {
+  color: #80c341 !important;
 }
 .navigation .gva_menu .sub-menu {
   border-top: none;
@@ -226,8 +231,54 @@ h1, h2, h3, h4, h5, h6 {
   color: #80c341 !important;
 }
 
+/* Vet Nav 2 */
+
+.vertical-navigation-2,
+#vertical-navigation {
+  display: block !important;
+}
+
+.vertical-navigation-2 .navigation .gva_menu > li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.vertical-navigation-2 .navigation .gva_menu > li > a:hover::before {
+  display: none;
+}
+
+
+.vertical-navigation-2 .navigation .gva_menu > li > a {
+  display: block;
+  font-size: .75rem !important;
+  font-weight: 400 !important;
+  padding: 4px 25px;
+  text-align: center !important;
+  color: #80c341 !important;
+  background: #000;
+  border: 1px solid #80c341 !important;;
+  text-transform: uppercase;
+  font-family: Open Sans !important;
+  border-radius: 25px;
+  margin: 0 0 12px;
+}
+
+.vertical-navigation-2 .navigation .gva_menu > li > a:hover,
+.vertical-navigation-2 .navigation .gva_menu > li > a:focus {
+  color: #000 !important;
+  background: #80c341 !important;
+}
+.vertical-navigation-2 .navigation .gva_menu > li.menu-item--active-trail > a {
+  color: #000 !important;
+  background: #80c341!important;
+}
 .line-spacer {
   padding: 5px 0;
+}
+
+.line-spacer-2 {
+  padding: 15px 0;
 }
 
 .button-center {
@@ -289,6 +340,10 @@ h1, h2, h3, h4, h5, h6 {
   background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
   background-size: 5px 5px, 5px 5px, 1px 1.5em;
   background-repeat: no-repeat;
+  margin: 25px 0 0;
+  border: 1px solid #80c341;
+  background: #1a1a1a;
+  color: #80c341;
 }
 
 .webform-submission-form .form-actions {
@@ -324,46 +379,31 @@ h1, h2, h3, h4, h5, h6 {
 /*********************** Demo - 9 *******************/
 .box9 {
  position: relative;
-  -webkit-transition: background-color 2s ease-out;
-  -moz-transition: background-color 2s ease-out;
-  -o-transition: background-color 2s ease-out;
-  transition: background-color 2s ease-out;
 }
 .box9 img {
   width: 100%;
   height: auto;
   padding: 70px 50px;
   margin: 10px 0;
-  -webkit-transition: background-color 2s ease-out;
-  -moz-transition: background-color 2s ease-out;
-  -o-transition: background-color 2s ease-out;
-  transition: background-color 2s ease-out;
 }
 .box9:hover img {
   opacity: .5;
-  -webkit-transition: background-color 2s ease-out;
-  -moz-transition: background-color 2s ease-out;
-  -o-transition: background-color 2s ease-out;
-  transition: background-color 2s ease-out;
 }
 .box9 .box-content {
   padding: 30px 10px 30px 0;
   background: rgba(0, 0, 0, .65);
   position: absolute;
   top: 0;left: 0;bottom: 0;right: 0;opacity: 0;
-  -webkit-transition: background-color 2s ease-out;
-  -moz-transition: background-color 2s ease-out;
-  -o-transition: background-color 2s ease-out;
-  transition: background-color 2s ease-out;
 }
 .box9:hover .box-content {
   opacity: 1;
-  background: #262626;
+  background: rgba(0,0,0,1);
   border-radius: 25px;
-  -webkit-transition: background-color 2s ease-out;
-  -moz-transition: background-color 2s ease-out;
-  -o-transition: background-color 2s ease-out;
-  transition: background-color 2s ease-out;
+
+  -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
 }
 
 .card  {border-radius: 25px !important;}
@@ -407,6 +447,34 @@ h1, h2, h3, h4, h5, h6 {
 
 .text-md {
   font-size: 18px !important;
+}
+
+.text-lg {
+  font-size: 22px !important;
+}
+
+.text-xlg {
+  font-size: 25px !important;
+}
+
+.text-xxlg {
+  font-size: 30px !important;
+}
+
+.text-uppercase,
+.uppercase {
+  text-transform: uppercase !important;
+}
+
+.gsc-icon-box .highlight_content .title {
+  font-weight: 300 !important;
+  font-family: "Open Sans" !important;
+  font-size: 12px !important;
+}
+
+.breadcrumb-content-inner .gva-breadcrumb-content .breadcrumb-links nav.breadcrumb {
+  display: none;
+
 }
 /********/
 @media only screen and (max-width: 990px) {
