@@ -44,7 +44,7 @@
 
 .navigation .gva_menu .sub-menu,
 .navigation .gva_menu .sub-menu a {
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(0, 0, 0, 0.6);
   color: #fff !important;
   border-top: none;
   padding: 0 0 10px;
@@ -271,7 +271,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .vertical-navigation-2 .navigation .gva_menu > li.menu-item--active-trail > a {
   color: #000 !important;
-  background: #80c341!important;
+  background: #80c341 !important;
 }
 
 .green-border-top {
@@ -394,7 +394,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*********************** Demo - 9 *******************/
 .box9 {
- position: relative;
+  position: relative;
 }
 .box9 img {
   width: 100%;
@@ -413,7 +413,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .box9:hover .box-content {
   opacity: 1;
-  background: rgba(0,0,0,1);
+  background: rgba(0, 0, 0, 1);
   border-radius: 25px;
 
   -webkit-transition: background-color 1s ease-out;
@@ -422,7 +422,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: background-color 1s ease-out;
 }
 
-.card  {border-radius: 25px !important;}
+.card {border-radius: 25px !important;}
 
 .box9 p {
   color: #fff !important;
@@ -440,7 +440,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .gsc-button.medium.w-100.text-align-right.no-border:hover,
 .gsc-button.medium.w-100.text-align-right.no-border:focus {
- background: transparent !important;
+  background: transparent !important;
   text-decoration: underline;
   color: #fff !important;
 }
@@ -458,7 +458,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .ext-normal {
-  font-weight: 300!important;
+  font-weight: 300 !important;
 }
 
 .text-md {
@@ -495,6 +495,90 @@ h1, h2, h3, h4, h5, h6 {
 
 b, strong {
   font-weight: 700;
+}
+
+#block-gavias-edupia-content .header-title {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+#block-gavias-edupia-mainnavigation.navigation .gva_menu {
+  float: none;
+}
+
+#block-gavias-edupia-mainnavigation .block-content {
+  text-align: center;
+}
+
+#block-gavias-edupia-mainnavigation .gva-navigation {
+  margin: 0;
+}
+
+.drupal-tabs {
+  border-bottom: transparent;
+}
+
+.gav-help-region .nav-tabs > li > a {
+  font-weight: 400 !important;
+  color: #fff !important;
+}
+
+#edit-help-link {
+  background: #80c341;
+  padding: 5px 20px;
+  border-radius: 10px;
+  border: 1px solid  #80c341;
+}
+
+#edit-help-link:hover {
+  background: #000;
+  padding: 5px 20px;
+  border-radius: 10px;
+  border: 1px solid  #80c341;
+}
+
+#edit-basic {
+  margin: 20px 0;
+}
+
+#edit-advanced {
+  margin: 20px 0;
+}
+
+#edit-keys {
+  background: #000;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 3px 10px;
+}
+
+#edit-submit {
+  background: #80c341;
+  color: #000;
+  padding: 5px 30px;
+  border-radius: 0;
+  top: -2px;
+}
+
+label {
+  font-weight: 400;
+}
+
+.gav-help-region .messages__wrapper {
+  padding: 10px;
+  border: 1px solid #80c341;
+  margin: 0 auto;
+  max-width: 1170px;
+  margin-bottom: 25px;
+  border-radius: 50px;
+  text-align: center;
+}
+.messages:last-child {
+  margin-bottom: 10px;
+}
+.messages:first-child {
+  margin-top: 10px;
 }
 /********/
 @media only screen and (max-width: 990px) {
