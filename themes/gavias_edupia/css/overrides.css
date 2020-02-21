@@ -251,9 +251,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .vertical-navigation-2 .navigation .gva_menu > li > a {
   display: block;
-  font-size: .75rem !important;
+  font-size: .7rem !important;
   font-weight: 400 !important;
-  padding: 4px 25px;
+  padding: 4px 50px;
   text-align: center !important;
   color: #80c341 !important;
   background: #000;
@@ -273,12 +273,28 @@ h1, h2, h3, h4, h5, h6 {
   color: #000 !important;
   background: #80c341!important;
 }
+
+.green-border-top {
+
+}
 .line-spacer {
   padding: 5px 0;
 }
 
 .line-spacer-2 {
   padding: 15px 0;
+}
+
+.line-spacer-3 {
+  padding: 70px 0;
+}
+
+.line-spacer-4 {
+  padding: 125px 0;
+}
+
+.line-spacer-5 {
+  padding: 150px 0;
 }
 
 .button-center {
