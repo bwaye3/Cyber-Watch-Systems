@@ -416,10 +416,10 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(0, 0, 0, 1);
   border-radius: 25px;
 
-  -webkit-transition: background-color 1s ease-out;
-  -moz-transition: background-color 1s ease-out;
-  -o-transition: background-color 1s ease-out;
-  transition: background-color 1s ease-out;
+  -webkit-transition: background-color 1s ease-in-out;
+  -moz-transition: background-color 1s ease-in-out;
+  -o-transition: background-color 1s ease-in-out;
+  transition: background-color 1s ease-in-out;
 }
 
 .card {border-radius: 25px !important;}
@@ -564,6 +564,15 @@ b, strong {
 label {
   font-weight: 400;
 }
+.breadcrumb_subtitle {
+  margin: 0 0 0 25px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.box-content a {
+  color: #80c341
+}
 
 .gav-help-region .messages__wrapper {
   padding: 10px;
@@ -580,11 +589,57 @@ label {
 .messages:first-child {
   margin-top: 10px;
 }
+
+div#sliding-popup, div#sliding-popup .eu-cookie-withdraw-banner, .eu-cookie-withdraw-tab {
+  background: rgba(0,0,0,.8);
+  border-top: 2px solid #80c341;
+}
+.eu-cookie-compliance-content {
+  margin: 0 auto;
+  max-width: 80%;
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.disagree-button.eu-cookie-compliance-more-button, .eu-cookie-compliance-agree-button, .eu-cookie-compliance-default-button, .eu-cookie-compliance-hide-button, .eu-cookie-compliance-more-button-thank-you, .eu-cookie-withdraw-button, .eu-cookie-compliance-save-preferences-button {
+  cursor: pointer;
+  margin-right: 5px;
+  margin-top: 1em;
+  vertical-align: middle;
+  overflow: visible;
+  width: auto;
+  box-shadow: none;
+  background-color: #80c341; !important;
+  background-image: none;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  border: 1px solid #80c341;;
+  color: #000;
+  font-family: Russo One !important;
+  font-weight: normal;
+  font-size: 12px;
+  padding: 3px 7px;
+  text-decoration: none;
+  text-shadow: none;
+}
+
+#block-gavias-edupia-content h3 {
+  margin: 30px 0;
+}
 /********/
 @media only screen and (max-width: 990px) {
   .box9 {margin-bottom: 20px}
 }
 
+input {
+  background: #000;
+ color: #fff;
+  border: 1px solid #fff;
+  min-height: 34px;
+}
 
 @media (max-width: 991.98px) {
   header .area-main-menu .gva-search-region {
@@ -598,3 +653,5 @@ label {
     display: none;
   }
 }
+
+

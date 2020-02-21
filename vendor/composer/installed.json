@@ -1805,6 +1805,71 @@
         }
     },
     {
+        "name": "drupal/back_to_top",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/back_to_top.git",
+            "reference": "8.x-1.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/back_to_top-8.x-1.1.zip",
+            "reference": "8.x-1.1",
+            "shasum": "5698e1c440561fdb109bb15816bdf6332f9bbb8f"
+        },
+        "require": {
+            "drupal/core": "^8 || ^9"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.1",
+                "datestamp": "1579012388",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Alsén",
+                "homepage": "https://www.drupal.org/user/1726528"
+            },
+            {
+                "name": "Nitesh Sethia",
+                "homepage": "https://www.drupal.org/user/2474982"
+            },
+            {
+                "name": "acke",
+                "homepage": "https://www.drupal.org/user/765764"
+            },
+            {
+                "name": "diqidoq",
+                "homepage": "https://www.drupal.org/user/1001934"
+            },
+            {
+                "name": "sumitmadan",
+                "homepage": "https://www.drupal.org/user/1538790"
+            }
+        ],
+        "description": "Back To Top adds a button that hovers in the bottom of your screen and allow users to smoothly scroll up the page using jQuery.",
+        "homepage": "https://www.drupal.org/project/back_to_top",
+        "support": {
+            "source": "https://git.drupalcode.org/project/back_to_top"
+        }
+    },
+    {
         "name": "drupal/block_class",
         "version": "1.1.0",
         "version_normalized": "1.1.0.0",
@@ -2900,6 +2965,103 @@
         }
     },
     {
+        "name": "drupal/eu_cookie_compliance",
+        "version": "1.8.0",
+        "version_normalized": "1.8.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/eu-cookie-compliance.git",
+            "reference": "8.x-1.8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/eu_cookie_compliance-8.x-1.8.zip",
+            "reference": "8.x-1.8",
+            "shasum": "f4b5c48d0d4347c414b91eaa59acad88707b5907"
+        },
+        "require": {
+            "drupal/core": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.8",
+                "datestamp": "1563997434",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Marcin Pajdzik",
+                "homepage": "https://www.drupal.org/u/marcin-pajdzik",
+                "role": "Maintainer"
+            },
+            {
+                "name": "Sven Berg Ryen",
+                "homepage": "https://www.drupal.org/u/svenryen",
+                "role": "Maintainer"
+            },
+            {
+                "name": "See other contributors",
+                "homepage": "https://www.drupal.org/node/1538032/committers"
+            },
+            {
+                "name": "dakku",
+                "homepage": "https://www.drupal.org/user/97634"
+            },
+            {
+                "name": "grzegorz.bartman",
+                "homepage": "https://www.drupal.org/user/363120"
+            },
+            {
+                "name": "id.tornado",
+                "homepage": "https://www.drupal.org/user/2754049"
+            },
+            {
+                "name": "killua99",
+                "homepage": "https://www.drupal.org/user/699418"
+            },
+            {
+                "name": "mibfire",
+                "homepage": "https://www.drupal.org/user/155136"
+            },
+            {
+                "name": "naveenvalecha",
+                "homepage": "https://www.drupal.org/user/2665733"
+            },
+            {
+                "name": "svenryen",
+                "homepage": "https://www.drupal.org/user/667244"
+            }
+        ],
+        "description": "This module aims at making the website compliant with the new EU cookie regulation.",
+        "homepage": "https://drupal.org/project/eu_cookie_compliance",
+        "keywords": [
+            "Cookie",
+            "CookieCompliance",
+            "Drupal",
+            "GDPR"
+        ],
+        "support": {
+            "source": "https://cgit.drupalcode.org/eu-cookie-compliance",
+            "docs": "https://www.drupal.org/project/eu_cookie_compliance",
+            "forum": "https://drupal.stackexchange.com/search?q=eu+cookie+compliance",
+            "issues": "https://www.drupal.org/project/issues/eu_cookie_compliance?version=8.x",
+            "irc": "irc://irc.freenode.org/drupal-contribute"
+        }
+    },
+    {
         "name": "drupal/features",
         "version": "3.8.0",
         "version_normalized": "3.8.0.0",
@@ -3110,6 +3272,64 @@
         "homepage": "https://www.drupal.org/project/field_formatter_class",
         "support": {
             "source": "https://git.drupalcode.org/project/field_formatter_class"
+        }
+    },
+    {
+        "name": "drupal/google_analytics",
+        "version": "3.0.0",
+        "version_normalized": "3.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/google_analytics.git",
+            "reference": "8.x-3.0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/google_analytics-8.x-3.0.zip",
+            "reference": "8.x-3.0",
+            "shasum": "18179854152cae44be2a5ed5de5550bc6e131c70"
+        },
+        "require": {
+            "drupal/core": "~8.5"
+        },
+        "require-dev": {
+            "drupal/php": "*",
+            "drupal/token": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-3.x": "3.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-3.0",
+                "datestamp": "1548968580",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "hass",
+                "homepage": "https://www.drupal.org/u/hass"
+            },
+            {
+                "name": "See other contributors",
+                "homepage": "https://www.drupal.org/node/49388/committers"
+            }
+        ],
+        "description": "Allows your site to be tracked by Google Analytics by adding a Javascript tracking code to every page.",
+        "homepage": "https://www.drupal.org/project/google_analytics",
+        "support": {
+            "source": "https://git.drupal.org/project/google_analytics.git",
+            "issues": "https://www.drupal.org/project/issues/google_analytics"
         }
     },
     {
@@ -3422,6 +3642,76 @@
         }
     },
     {
+        "name": "drupal/metatag",
+        "version": "1.11.0",
+        "version_normalized": "1.11.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/metatag.git",
+            "reference": "8.x-1.11"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/metatag-8.x-1.11.zip",
+            "reference": "8.x-1.11",
+            "shasum": "9acb04a741d80b4ab468d118a242271169d11f00"
+        },
+        "require": {
+            "drupal/core": "*",
+            "drupal/token": "^1.0"
+        },
+        "require-dev": {
+            "drupal/devel": "^2.0",
+            "drupal/metatag_dc": "*",
+            "drupal/metatag_open_graph": "*",
+            "drupal/page_manager": "^4.0",
+            "drupal/redirect": "^1.0",
+            "drupal/restui": "^1.0",
+            "drupal/schema_metatag": "^1.0",
+            "drupal/schema_web_page": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.11",
+                "datestamp": "1576870683",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "See contributors",
+                "homepage": "https://www.drupal.org/node/640498/committers",
+                "role": "Developer"
+            },
+            {
+                "name": "Dave Reid",
+                "homepage": "https://www.drupal.org/user/53892"
+            }
+        ],
+        "description": "Manage meta tags for all entities.",
+        "homepage": "https://www.drupal.org/project/metatag",
+        "keywords": [
+            "Drupal",
+            "seo"
+        ],
+        "support": {
+            "source": "http://cgit.drupalcode.org/metatag",
+            "issues": "http://drupal.org/project/issues/metatag"
+        }
+    },
+    {
         "name": "drupal/paragraphs",
         "version": "1.11.0",
         "version_normalized": "1.11.0.0",
@@ -3708,6 +3998,83 @@
         "support": {
             "source": "https://git.drupal.org/project/recaptcha.git",
             "issues": "https://www.drupal.org/project/issues/recaptcha"
+        }
+    },
+    {
+        "name": "drupal/search_api",
+        "version": "1.15.0",
+        "version_normalized": "1.15.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/search_api.git",
+            "reference": "8.x-1.15"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/search_api-8.x-1.15.zip",
+            "reference": "8.x-1.15",
+            "shasum": "12c13141adb6b687fe36781ac9269a49ef810323"
+        },
+        "require": {
+            "drupal/core": "^8.6"
+        },
+        "conflict": {
+            "drupal/search_api_solr": "2.* || 3.0 || 3.1"
+        },
+        "require-dev": {
+            "drupal/language_fallback_fix": "@dev",
+            "drupal/search_api_autocomplete": "@dev",
+            "drupal/search_api_db": "*"
+        },
+        "suggest": {
+            "drupal/facets": "Adds the ability to create faceted searches.",
+            "drupal/search_api_autocomplete": "Allows adding autocomplete suggestions to search fields.",
+            "drupal/search_api_solr": "Adds support for using Apache Solr as a backend."
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.15",
+                "datestamp": "1573122785",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            },
+            "drush": {
+                "services": {
+                    "drush.services.yml": "^9"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Thomas Seidl",
+                "homepage": "https://www.drupal.org/u/drunken-monkey"
+            },
+            {
+                "name": "Nick Veenhof",
+                "homepage": "https://www.drupal.org/u/nick_vh"
+            },
+            {
+                "name": "See other contributors",
+                "homepage": "https://www.drupal.org/node/790418/committers"
+            }
+        ],
+        "description": "Provides a generic framework for modules offering search capabilities.",
+        "homepage": "https://www.drupal.org/project/search_api",
+        "support": {
+            "source": "http://git.drupal.org/project/search_api.git",
+            "issues": "https://www.drupal.org/project/issues/search_api",
+            "irc": "irc://irc.freenode.org/drupal-search-api"
         }
     },
     {
@@ -4117,6 +4484,178 @@
             "issues": "https://www.drupal.org/project/issues/webform?version=8.x",
             "docs": "https://www.drupal.org/docs/8/modules/webform",
             "forum": "https://drupal.stackexchange.com/questions/tagged/webform"
+        }
+    },
+    {
+        "name": "drupal/xmlsitemap",
+        "version": "1.0.0-rc1",
+        "version_normalized": "1.0.0.0-RC1",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/xmlsitemap.git",
+            "reference": "8.x-1.0-rc1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/xmlsitemap-8.x-1.0-rc1.zip",
+            "reference": "8.x-1.0-rc1",
+            "shasum": "9b88caa55f9a45b8c89a1284d2db739fbf0c830f"
+        },
+        "require": {
+            "drupal/core": "^8 || ^9",
+            "ext-xmlwriter": "*"
+        },
+        "require-dev": {
+            "drupal/robotstxt": "^1.0"
+        },
+        "suggest": {
+            "drush/drush": "Command-line regenerating and rebuilding sitemaps."
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.0-rc1",
+                "datestamp": "1576705928",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "RC releases are not covered by Drupal security advisories."
+                }
+            },
+            "drush": {
+                "services": {
+                    "drush.services.yml": "^9 || ^10"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Dave Reid",
+                "homepage": "https://www.drupal.org/user/53892"
+            },
+            {
+                "name": "RenatoG",
+                "homepage": "https://www.drupal.org/user/3326031"
+            },
+            {
+                "name": "amateescu",
+                "homepage": "https://www.drupal.org/user/729614"
+            },
+            {
+                "name": "andrei.dincu",
+                "homepage": "https://www.drupal.org/user/2628879"
+            },
+            {
+                "name": "juampynr",
+                "homepage": "https://www.drupal.org/user/682736"
+            },
+            {
+                "name": "paulmckibben",
+                "homepage": "https://www.drupal.org/user/279003"
+            },
+            {
+                "name": "pifagor",
+                "homepage": "https://www.drupal.org/user/2375692"
+            },
+            {
+                "name": "tadityar",
+                "homepage": "https://www.drupal.org/user/3094465"
+            },
+            {
+                "name": "th_tushar",
+                "homepage": "https://www.drupal.org/user/1835276"
+            }
+        ],
+        "description": "Creates XML sitemaps for the site",
+        "homepage": "https://www.drupal.org/project/xmlsitemap",
+        "support": {
+            "source": "http://cgit.drupalcode.org/xmlsitemap",
+            "issues": "http://drupal.org/project/issues/xmlsitemap"
+        }
+    },
+    {
+        "name": "drupal/yoast_seo",
+        "version": "1.5.0",
+        "version_normalized": "1.5.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/yoast_seo.git",
+            "reference": "8.x-1.5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/yoast_seo-8.x-1.5.zip",
+            "reference": "8.x-1.5",
+            "shasum": "e2b361277e44af50d4f560cf7fca83a192ca2345"
+        },
+        "require": {
+            "drupal/core": "*",
+            "drupal/metatag": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.5",
+                "datestamp": "1544198284",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "GoalGorilla",
+                "homepage": "https://www.drupal.org/user/272162"
+            },
+            {
+                "name": "Kingdutch",
+                "homepage": "https://www.drupal.org/user/1868952"
+            },
+            {
+                "name": "RobertRagas",
+                "homepage": "https://www.drupal.org/user/2723261"
+            },
+            {
+                "name": "bramtenhove",
+                "homepage": "https://www.drupal.org/user/1549848"
+            },
+            {
+                "name": "jaapjan",
+                "homepage": "https://www.drupal.org/user/555428"
+            },
+            {
+                "name": "jochemvn",
+                "homepage": "https://www.drupal.org/user/2521788"
+            },
+            {
+                "name": "naveenvalecha",
+                "homepage": "https://www.drupal.org/user/2665733"
+            },
+            {
+                "name": "ronaldtebrake",
+                "homepage": "https://www.drupal.org/user/2314038"
+            }
+        ],
+        "description": "Adds Real-time SEO page analysis and configuration.",
+        "homepage": "https://www.drupal.org/project/yoast_seo",
+        "support": {
+            "source": "https://git.drupalcode.org/project/yoast_seo"
         }
     },
     {

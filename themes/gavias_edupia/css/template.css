@@ -267,7 +267,7 @@ a.disable {
   text-align: left;
   font-weight: 700;
   position: relative;
-  margin: 50px 0 10px 25px;
+  margin: 50px 0 1px 25px;
 }
 
 .breadcrumb-content-inner .gva-breadcrumb-content .breadcrumb-links {
@@ -275,7 +275,7 @@ a.disable {
 }
 
 .breadcrumb-content-inner .gva-breadcrumb-content .gva-block-breadcrumb .breadcrumb-style {
-  padding: 68px 0 190px 0;
+  padding: 30px 0 100px 0;
   margin-bottom: 0;
   position: relative;
   background-image: url('/themes/gavias_edupia/images/breadcrumb.jpg');
@@ -630,6 +630,7 @@ header .area-main-menu .gva-search-region .search-content input#edit-keys {
   color: #fff !important;
   background: #000;
   width: 168px;
+  font-size: 12px;
 }
 
 header .area-main-menu .gva-search-region .search-content #edit-submit {
@@ -8153,10 +8154,10 @@ input[type="button"], .btn, .btn-white, .btn-theme, .btn-black, input.js-form-su
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
 
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 700;
   text-transform: capitalize;
-  padding: 0 30px;
+  padding: 0 10px;
   position: relative;
   display: inline-block;
   z-index: 1;
@@ -9112,6 +9113,7 @@ div.resizable-textarea textarea {
   text-transform: uppercase;
   font-weight: 500;
   border-radius: 0;
+  top: -2px;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -ms-border-radius: 0;

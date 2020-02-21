@@ -48,7 +48,8 @@
       <div class="breadcrumb-style" style="{{ custom_style }}">
         <div class="container">
           <div class="breadcrumb-content-main">
-            <h2 class="page-title">{{ breadcrumb_title }} </h2>
+            <h2 class="page-title">{{ breadcrumb_title }}</h2>
+            <span class="breadcrumb_subtitle"> NEED SUB TITLE HERE {{ field_breadcrumb_sub_title }}</span>
             {{ title_prefix }} {{ title_suffix }}
             {% block content %}
               <div class="{{ custom_classes }}">

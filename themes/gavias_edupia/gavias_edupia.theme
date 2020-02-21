@@ -372,3 +372,16 @@ function gavias_edupia_theme_suggestions_field_alter(&$suggestions, $variables) 
   $variables['element']['#field_name'] . '__' .
   $variables['element']['#view_mode'];
 }
+
+/**
+ * Implementation of block_form_alter().
+ *
+ *
+ */
+function gavias_edupia_form_search_block_form_alter(&$form, &$form_state)
+{
+  $form['keys']['#attributes']['placeholder'][] = t('Search here...');
+  $form['actions']['submit']['#value'] = html_entity_decode('GO');
+  $form['actions']['submit']['#attributes']['alt'] = "Search submit";
+  $form['actions']['submit']['#attributes']['class'][] = 'btn btn-default';
+}
