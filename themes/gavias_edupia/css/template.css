@@ -1872,6 +1872,7 @@ body.maintenance-page {
 
 .node--view-mode-full p {
   margin-bottom: 10px;
+  line-height: 1.7;
 }
 
 .node--view-mode-full .post-thumbnail {

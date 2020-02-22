@@ -146,6 +146,15 @@ footer .navigation .gva_menu > li > a {
   letter-spacing: 0;
 }
 
+ul li {
+  list-style: inherit;
+  margin-bottom: 7px;
+}
+ul {
+  list-style: inherit;
+  margin: 1rem 0;
+  padding:0 0 0 15px
+}
 
 footer .navigation .gva_menu > li > a:hover::before {
   display: none;
@@ -163,10 +172,13 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff !important;
 }
 
+.text-green,
+.text-green p ,
 .green-text,
 .green-text p,
 h1, h2, h3, h4, h5, h6 {
   color: #80c341 !important;
+  font-weight: bold;
 }
 
 .gsc-button.medium,
@@ -231,6 +243,14 @@ h1, h2, h3, h4, h5, h6 {
   color: #80c341 !important;
 }
 
+body.logged-in.toolbar-horizontal .header-v2 {
+  top: 75px;
+}
+
+.vertical-navigation {
+  margin: 6px 0 0;
+}
+
 /* Vet Nav 2 */
 
 .vertical-navigation-2,
@@ -253,7 +273,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   font-size: .7rem !important;
   font-weight: 400 !important;
-  padding: 4px 50px;
+  padding: 4px 30px;
   text-align: center !important;
   color: #80c341 !important;
   background: #000;
