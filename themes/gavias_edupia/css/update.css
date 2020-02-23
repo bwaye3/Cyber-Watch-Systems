@@ -1,31 +1,22 @@
 /****/
+
+.breadcrumb-content-inner .gva-breadcrumb-content .page-title {
+  line-height: 1.1;
+}
+
 .gsc-icon-box .highlight_content .title {
   font-weight: 300 !important;
   font-family: "Open Sans" !important;
   font-size: 14px !important;
   color: #a4a2a2 !important;
   letter-spacing: 1px;
-  text-shadow: 1px 2px 2px rgba(0,0,0,1);
-}
-
-.breadcrumb-subtitle {
-  position: absolute;
-  color: #fff;
-  z-index: 9999!important;
-  top: 120px!important;
-  max-width: 70%;
-  margin: 0 0 0 85px!important;
-  line-height: 1.3;
-  font-size: 14px!important;
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 1);
 }
 
 .page-user-login .main-page, .page-user-register .main-page, .page-user-pass .main-page {
   background: #000;
 }
 
-.breadcrumb-content-inner .gva-breadcrumb-content .gva-block-breadcrumb .breadcrumb-style {
-  padding: 30px 0 200px 0!important;
-}
 
 .gva-body-page input[type="text"] {
   color: #000;
@@ -56,4 +47,238 @@
 @media (min-width: 768px) and (min-width: 992px) {
   .navigation .gva_menu .sub-menu li:hover > ul {
     -webkit-transform: rotateX(0);
-    transform: rotateX(0); } }
+    transform: rotateX(0); }
+}
+
+
+/* BREADCRUMB */
+
+.breadcrumb-content-inner .gva-breadcrumb-content .gva-block-breadcrumb .breadcrumb-style {
+  padding: 30px 0 100px 0 !important;
+}
+
+.breadcrumb-subtitle {
+  position: absolute;
+  color: #fff;
+  z-index: 10 !important;
+  line-height: 1.3;
+  font-size: 18px !important;
+  font-weight: 400;
+}
+.page-node-194 .breadcrumb-subtitle {
+  top: 160px !important;
+  margin: 0 0 0 34% !important;
+}
+.page-node-195 .breadcrumb-subtitle {
+  top: 160px !important;
+  margin: 0 0 0 45% !important;
+}
+
+.page-node-196 .breadcrumb-subtitle {
+  top: 160px !important;
+  margin: 0 0 0 35% !important;
+}
+
+.page-node-197 .breadcrumb-subtitle {
+  top: 160px !important;
+  margin: 0 0 0 35% !important;
+}
+
+.page-node-198 .breadcrumb-subtitle {
+  top: 160px !important;
+  margin: 0 0 0 45% !important;
+}
+
+.page-node-210 .breadcrumb-subtitle {
+  top: 158px;
+  margin: 0 0 0 30% !important;
+  font-size: 16px !important;
+}
+
+.breadcrumb-content-inner .gva-breadcrumb-content .page-title {
+  margin: 120px 0 30px 7%;
+}
+
+@media (min-width: 1200px) {
+  .page-node-195 .breadcrumb-subtitle {
+    margin: 0 0 0 40% !important;
+  }
+}
+
+@media (max-width: 991.98px) {
+
+  .page-node-194 .breadcrumb-subtitle {
+    top: 210px !important;
+    margin: 0 0 0 40% !important;
+  }
+
+  .page-node-195 .breadcrumb-subtitle {
+    top: 200px !important;
+    margin: 0 0 0 20% !important;
+  }
+
+  .page-node-196 .breadcrumb-subtitle {
+    top: 170px !important;
+    margin: 0 0 0 20% !important;
+  }
+
+  .page-node-197 .breadcrumb-subtitle {
+    top: 170px !important;
+    margin: 0 0 0 20% !important;
+  }
+
+  .page-node-198 .breadcrumb-subtitle {
+    top: 170px !important;
+    margin: 0 0 0 20% !important;
+  }
+
+  .page-node-210 .breadcrumb-subtitle {
+    top: 178px;
+    margin: 0 0 0 16% !important;
+    max-width: 50%;
+  }
+
+  header.header-v2 {
+    position: relative;
+    background: transparent;
+  }
+  .site-branding-logo img {
+    max-width: 100%;
+  }
+
+  .breadcrumb-content-inner .gva-breadcrumb-content .page-title {
+    margin: 50px 0 30px 7%;
+  }
+
+  .gva-offcanvas-mobile .gva-navigation .gva_menu > li {
+    border-bottom: none;
+    text-align: left;
+  }
+
+  .gva-offcanvas-mobile,
+  .gva-offcanvas-mobile a,
+  header.header-v2 .navigation .gva_menu > li > a {
+    background: #000!important;
+    color: #fff !important;
+  }
+  .gva-offcanvas-mobile .close-offcanvas i {
+    color: #80c341 !important;
+  }
+
+  .gva-offcanvas-mobile .gva-navigation .gva_menu li a .icaret {
+    right: 25px;
+    font-size: 20px;
+    color: #80c341 !important;
+  }
+}
+
+@media (max-width: 780px) {
+  .page-node-194 .breadcrumb-subtitle {
+    top: 175px !important;
+    margin: 0 0 0 116px !important;
+  }
+  .page-node-194 .breadcrumb-content-inner .gva-breadcrumb-content .page-title {
+    margin: 30px 0 30px 10%;
+  }
+
+  .page-node-196 .breadcrumb-content-inner .gva-breadcrumb-content .page-title {
+    margin: 30px 0 30px 10%;
+  }
+
+  .page-node-197 .breadcrumb-content-inner .gva-breadcrumb-content .page-title {
+    margin: 30px 0 30px 10%;
+  }
+
+  .page-node-198 .breadcrumb-content-inner .gva-breadcrumb-content .page-title {
+    margin: 30px 0 30px 10%;
+  }
+
+  .page-node-210 .breadcrumb-subtitle {
+    top: 198px;
+    margin: 0 0 0 14% !important;
+  }
+
+  .site-branding-logo img {
+    max-width: 200px;
+  }
+
+  header .area-main-menu .gva-search-region {
+    top: 35%;
+  }
+  .menu-bar {
+    margin-top: 25px;
+    top: 0;
+    right: 20%;
+  }
+
+  .gva-offcanvas-mobile .gva-navigation .gva_menu > li ul.menu.sub-menu li a {
+    background: transparent;
+  }
+
+  .breadcrumb-content-inner .gva-breadcrumb-content .page-title {
+    margin: 50px 0 30px 7%;
+  }
+
+}
+
+@media (max-width: 458px) {
+  .page-node-194 .breadcrumb-content-inner .gva-breadcrumb-content .page-title {
+    margin: 30px 0 30px 10%;
+  }
+
+  .page-node-194 .breadcrumb-subtitle {
+    top: 175px !important;
+    margin: 0 0 0 50px !important;
+    max-width: 90%;
+  }
+
+  .page-node-195 .breadcrumb-content-inner .gva-breadcrumb-content .page-title {
+    margin: 30px 0 30px 10%;
+  }
+
+  .page-node-195 .breadcrumb-subtitle {
+    top: 175px !important;
+    margin: 0 0 0 50px !important;
+    max-width: 90%;
+  }
+
+  .page-node-196.breadcrumb-content-inner .gva-breadcrumb-content .page-title {
+    margin: 30px 0 30px 10%;
+  }
+
+  .page-node-196 .breadcrumb-subtitle {
+    top: 175px !important;
+    margin: 0 0 0 50px !important;
+    max-width: 90%;
+  }
+
+  .page-node-197 .breadcrumb-content-inner .gva-breadcrumb-content .page-title {
+       margin: 30px 0 30px 10%;
+     }
+
+  .page-node-197 .breadcrumb-subtitle {
+    top: 175px !important;
+    margin: 0 0 0 50px !important;
+    max-width: 90%;
+  }
+
+  .page-node-198 .breadcrumb-content-inner .gva-breadcrumb-content .page-title {
+    margin: 30px 0 30px 15px;
+    font-size: 25px;
+  }
+
+  .page-node-198 .breadcrumb-subtitle {
+    top: 180px !important;
+    margin: 0 0 0 30px !important;
+    max-width: 90%;
+  }
+
+  .page-node-210 .breadcrumb-subtitle {
+    top: 198px;
+    margin: 0 0 0 14% !important;
+  }
+
+  .site-branding-logo img {
+    max-width: 200px;
+  }
+}

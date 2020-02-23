@@ -523,10 +523,6 @@ b, strong {
   left: -9999px;
 }
 
-#block-gavias-edupia-mainnavigation.navigation .gva_menu {
-  float: none;
-}
-
 #block-gavias-edupia-mainnavigation .block-content {
   text-align: center;
 }
@@ -534,7 +530,10 @@ b, strong {
 #block-gavias-edupia-mainnavigation .gva-navigation {
   margin: 0;
 }
-
+#block-gavias-edupia-mainnavigation.navigation .gva_menu {
+  float: left;
+  margin: 0 0 0 10%;
+}
 .drupal-tabs {
   border-bottom: transparent;
 }
@@ -645,7 +644,10 @@ div#sliding-popup, div#sliding-popup .eu-cookie-withdraw-banner, .eu-cookie-with
   text-decoration: none;
   text-shadow: none;
 }
+/*
 
+
+ */
 #block-gavias-edupia-content h3 {
   margin: 30px 0;
 }

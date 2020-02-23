@@ -263,11 +263,11 @@ a.disable {
 .breadcrumb-content-inner .gva-breadcrumb-content .page-title {
   font-size: 28px;
   width: 100%;
-  float: left;
+  /* float: left; */
   text-align: left;
   font-weight: 700;
   position: relative;
-  margin: 50px 0 1px 25px;
+  margin: 120px 0 30px 100px;
 }
 
 .breadcrumb-content-inner .gva-breadcrumb-content .breadcrumb-links {
@@ -275,7 +275,7 @@ a.disable {
 }
 
 .breadcrumb-content-inner .gva-breadcrumb-content .gva-block-breadcrumb .breadcrumb-style {
-  padding: 30px 0 100px 0;
+  /*padding: 30px 0 100px 0;*/
   margin-bottom: 0;
   position: relative;
   background-image: url('/themes/gavias_edupia/images/breadcrumb.jpg');
@@ -15711,7 +15711,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
     line-height: 24px;
     padding-top: 0 !important;
     padding-bottom: 4px !important;
-    color: #222 !important;
+    color: #222;
 
     font-weight: 500;
   }

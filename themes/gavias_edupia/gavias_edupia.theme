@@ -86,6 +86,10 @@ function gavias_edupia_preprocess_html(&$variables) {
   global $theme, $base_url;
   global $parent_root;
 
+  if ($node = \Drupal::request()->attributes->get('node')) {
+      $variables['attributes']['class'][] = 'page-node-' . $node->id();
+    }
+
   $theme_path = drupal_get_path('theme', 'gavias_edupia');
 
   if(theme_get_setting('enable_panel') == '1' ){
@@ -383,3 +387,4 @@ function gavias_edupia_form_search_block_form_alter(&$form, &$form_state)
   $form['actions']['submit']['#attributes']['alt'] = "Search submit";
   $form['actions']['submit']['#attributes']['class'][] = 'btn btn-default';
 }
+
