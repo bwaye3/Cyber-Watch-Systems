@@ -155,11 +155,11 @@ ul {
   padding: 0 0 0 15px
 }
 
-ul {
+.gsc-column ul {
   list-style: none; /* Remove default bullets */
 }
 
-ul li::before {
+.gsc-column ul li::before {
   content: "\25AA";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
   color: #70E800; /* Change the color */
   font-weight: bold; /* If you want it to be bold */
@@ -247,6 +247,7 @@ h5 {
 .vertical-navigation .navigation .gva_menu > li > a:hover::after {
   content: '>' ' Learn More';
   margin: 0 0 0 5px;
+  color: #70E800 !important;
 }
 
 .vertical-navigation .navigation .gva_menu > li > a {
@@ -308,12 +309,20 @@ body.logged-in.toolbar-horizontal .header-v2 {
   font-family: Open Sans !important;
   border-radius: 25px;
   margin: 0 0 12px;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  -ms-transition: all 0.35s;
 }
 
 .vertical-navigation-2 .navigation .gva_menu > li > a:hover,
 .vertical-navigation-2 .navigation .gva_menu > li > a:focus {
   color: #000 !important;
   background: #70E800 !important;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  -ms-transition: all 0.35s;
 }
 .vertical-navigation-2 .navigation .gva_menu > li.menu-item--active-trail > a {
   color: #000 !important;

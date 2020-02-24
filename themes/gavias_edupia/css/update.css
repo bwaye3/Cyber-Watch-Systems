@@ -35,13 +35,18 @@
 
 .gavias_sliderlayer .fa-chevron-down::before {
   content: "\f078";
-  color: #b3b3b3;
+  color: #70E800;
   font-size: 50px;
   font-weight: bold;
 }
 
+.gavias_sliderlayer .fa-chevron-down:hover::before {
+  color: #fff;
+}
+
 #backtotop {
   background: url("/sites/default/files/2020-02/green-up.png") no-repeat center center !important;
+  border-radius: 50px;
 }
 
 @media (min-width: 768px) and (min-width: 992px) {
@@ -64,7 +69,7 @@
 
 .breadcrumb-subtitle {
   position: absolute;
-  color: #b3b3b3;
+  color: #fff;
   z-index: 10 !important;
   line-height: 1.3;
   font-size: 18px !important;
@@ -109,6 +114,7 @@
 
 .breadcrumb-content-inner .gva-breadcrumb-content .page-title {
   margin: 120px 0 30px 7%;
+  text-transform: uppercase;
 }
 
 @media (min-width: 1200px) {
@@ -321,9 +327,37 @@ body {
   font-size: 16px;
 }
 
-.gavias_sliderlayer .btn-slide.inner, .gavias_sliderlayer .btn-slide a, .gavias_sliderlayer .btn-slide-white.inner, .gavias_sliderlayer .btn-slide-white a, #gavias_slider_single .btn-slide.inner, #gavias_slider_single .btn-slide a, #gavias_slider_single .btn-slide-white.inner, #gavias_slider_single .btn-slide-white a {
-
-  color: #b3b3b3 !important;
+.gavias_sliderlayer .btn-slide.inner,
+.gavias_sliderlayer .btn-slide a,
+.gavias_sliderlayer .btn-slide-white.inner,
+.gavias_sliderlayer .btn-slide-white a,
+#gavias_slider_single .btn-slide.inner,
+#gavias_slider_single .btn-slide a,
+#gavias_slider_single .btn-slide-white.inner,
+#gavias_slider_single .btn-slide-white a {
+  color: #70E800 !important;
   background: #000 !important;
-  border: 1px solid #b3b3b3 !important;
+  border: 1px solid #70E800 !important;
+}
+
+.gavias_sliderlayer .btn-slide.inner:hover,
+.gavias_sliderlayer .btn-slide a:hover,
+.gavias_sliderlayer .btn-slide-white.inner:hover,
+.gavias_sliderlayer .btn-slide-white a:hover,
+#gavias_slider_single .btn-slide.inner:hover,
+#gavias_slider_single .btn-slide a:hover,
+#gavias_slider_single .btn-slide-white.inner:hover,
+#gavias_slider_single .btn-slide-white a:hover {
+  color: #000 !important;
+  background: #70E800 !important;
+  border: 1px solid #70E800 !important;
+  text-decoration: none !important;
+}
+
+header.header-v2 .navigation .gva_menu > li.menu-item--active-trail > a {
+  color:#70E800 !important;
+}
+
+body {
+  font-size: 16px !important;
 }
