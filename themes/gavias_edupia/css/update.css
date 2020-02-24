@@ -35,7 +35,7 @@
 
 .gavias_sliderlayer .fa-chevron-down::before {
   content: "\f078";
-  color: #80c341;
+  color: #b3b3b3;
   font-size: 50px;
   font-weight: bold;
 }
@@ -179,13 +179,13 @@
     color: #fff !important;
   }
   .gva-offcanvas-mobile .close-offcanvas i {
-    color: #80c341 !important;
+    color: #b3b3b3 !important;
   }
 
   .gva-offcanvas-mobile .gva-navigation .gva_menu li a .icaret {
     right: 25px;
     font-size: 20px;
-    color: #80c341 !important;
+    color: #b3b3b3 !important;
   }
 }
 
@@ -323,7 +323,7 @@ body {
 
 .gavias_sliderlayer .btn-slide.inner, .gavias_sliderlayer .btn-slide a, .gavias_sliderlayer .btn-slide-white.inner, .gavias_sliderlayer .btn-slide-white a, #gavias_slider_single .btn-slide.inner, #gavias_slider_single .btn-slide a, #gavias_slider_single .btn-slide-white.inner, #gavias_slider_single .btn-slide-white a {
 
-  color: #80c341 !important;
+  color: #b3b3b3 !important;
   background: #000 !important;
-  border: 1px solid #80c341 !important;
+  border: 1px solid #b3b3b3 !important;
 }

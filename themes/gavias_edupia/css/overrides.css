@@ -11,7 +11,7 @@
 }
 .navigation .gva_menu > li > a:hover,
 .navigation .gva_menu > li > a:focus {
-  color: #80c341 !important;
+  color: #70E800 !important;
   text-decoration: none !important;
 }
 
@@ -23,13 +23,13 @@
 }
 
 .navigation .gva_menu > li:hover > a {
-  color: #80c341;
+  color: #70E800;
   text-decoration: none !important;
 }
 
 .navigation .gva_menu > li > a:hover::before {
   content: '';
-  background: #80c341;
+  background: #70E800;
   width: 40px;
   height: 2px;
   position: absolute;
@@ -52,7 +52,7 @@
 
 .navigation .gva_menu .sub-menu a:hover,
 .navigation .gva_menu .sub-menu a:focus {
-  color: #80c341 !important;
+  color: #70E800 !important;
   text-decoration: none !important;
 }
 .navigation .gva_menu .sub-menu {
@@ -61,7 +61,7 @@
 }
 
 .block .block-title > span {
-  color: #80c341 !important;
+  color: #70E800 !important;
 }
 
 .footer {
@@ -85,7 +85,7 @@ footer .block .block-title > span {
 }
 
 .gva-search-region .icon {
-  color: #80c341 !important;
+  color: #70E800 !important;
 }
 
 .icon-line {
@@ -105,11 +105,11 @@ footer .block .block-title > span {
 }
 
 .green {
-  color: #80c341 !important;
+  color: #70E800 !important;
 }
 
 .phone-main {
-  color: #80c341 !important;
+  color: #70E800 !important;
   font-weight: 300 !important;
   margin: 0 0 0 10px;
   font-size: .7rem;
@@ -161,7 +161,7 @@ ul {
 
 ul li::before {
   content: "\25AA";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: #80c341; /* Change the color */
+  color: #70E800; /* Change the color */
   font-weight: bold; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1em; /* Also needed for space (tweak if needed) */
@@ -195,7 +195,7 @@ h1, h2, h3, h4, h5, h6 {
 .green-text,
 .green-text p,
 h1, h2, h3, h4, h5, h6 {
-  color: #80c341 !important;
+  color: #70E800 !important;
   font-weight: bold;
 }
 
@@ -208,15 +208,15 @@ h5 {
   font-size: .75rem !important;
   padding: 5px 35px;
   border-radius: 25px;
-  border: 1px solid #80c341 !important;
+  border: 1px solid #70E800 !important;
   margin: 10px 0 20px;
-  color: #80c341 !important;
+  color: #70E800 !important;
 }
 
 .gsc-button.medium:hover,
 .gsc-button.medium:focus {
-  background: #80c341 !important;
-  border: 1px solid #80c341 !important;
+  background: #70E800 !important;
+  border: 1px solid #70E800 !important;
   color: #000 !important;
   text-decoration: none !important;
 }
@@ -266,7 +266,7 @@ h5 {
 }
 .vertical-navigation .navigation .gva_menu > li > a:hover,
 .vertical-navigation .navigation .gva_menu > li > a:focus {
-  color: #80c341 !important;
+  color: #70E800 !important;
 }
 
 body.logged-in.toolbar-horizontal .header-v2 {
@@ -301,9 +301,9 @@ body.logged-in.toolbar-horizontal .header-v2 {
   font-weight: 400 !important;
   padding: 4px 30px;
   text-align: center !important;
-  color: #80c341 !important;
+  color: #70E800 !important;
   background: #000;
-  border: 1px solid #80c341 !important;;
+  border: 1px solid #70E800 !important;;
   text-transform: uppercase;
   font-family: Open Sans !important;
   border-radius: 25px;
@@ -313,11 +313,11 @@ body.logged-in.toolbar-horizontal .header-v2 {
 .vertical-navigation-2 .navigation .gva_menu > li > a:hover,
 .vertical-navigation-2 .navigation .gva_menu > li > a:focus {
   color: #000 !important;
-  background: #80c341 !important;
+  background: #70E800 !important;
 }
 .vertical-navigation-2 .navigation .gva_menu > li.menu-item--active-trail > a {
   color: #000 !important;
-  background: #80c341 !important;
+  background: #70E800 !important;
 }
 
 .green-border-top {
@@ -362,14 +362,14 @@ body.logged-in.toolbar-horizontal .header-v2 {
 
 .webform-submission-form .form-actions input.form-submit {
   background: #000 !important;
-  color: #80c341 !important;
-  border: 1px solid #80c341 !important;
+  color: #70E800 !important;
+  border: 1px solid #70E800 !important;
 }
 
 .webform-submission-form .form-actions input.form-submit:hover {
-  background: #80c341 !important;
+  background: #70E800 !important;
   color: #000 !important;
-  border: 1px solid #80c341 !important;
+  border: 1px solid #70E800 !important;
 }
 
 .webform-submission-form .form-item input,
@@ -398,14 +398,14 @@ body.logged-in.toolbar-horizontal .header-v2 {
 }
 
 .webform-submission-form .form-item select {
-  background-image: linear-gradient(45deg, transparent 50%, #80c341 50%), linear-gradient(135deg, #80c341 50%, transparent 50%), linear-gradient(to right, #80c341, #80c341);
+  background-image: linear-gradient(45deg, transparent 50%, #70E800 50%), linear-gradient(135deg, #70E800 50%, transparent 50%), linear-gradient(to right, #70E800, #70E800);
   background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
   background-size: 5px 5px, 5px 5px, 1px 1.5em;
   background-repeat: no-repeat;
   margin: 25px 0 0;
-  border: 1px solid #80c341;
+  border: 1px solid #70E800;
   background: #1a1a1a;
-  color: #80c341;
+  color: #70E800;
 }
 
 .webform-submission-form .form-actions {
@@ -428,7 +428,7 @@ body.logged-in.toolbar-horizontal .header-v2 {
   color: #fff !important;
 }
 .green-title {
-  color: #80c341 !important;
+  color: #70E800 !important;
 }
 
 .card:hover {
@@ -478,7 +478,7 @@ body.logged-in.toolbar-horizontal .header-v2 {
   font-weight: 600;
   margin: 0 !important;
   font-size: 35px;
-  color: #80c341 !important;
+  color: #70E800 !important;
 }
 
 .absolute-bottom {
@@ -524,7 +524,7 @@ body.logged-in.toolbar-horizontal .header-v2 {
   font-weight: 600;
   margin: 0 !important;
   font-size: 35px;
-  color: #80c341 !important;
+  color: #70E800 !important;
 }
 /**/
 .gsc-button.medium.w-100.text-align-right.no-border {
@@ -547,7 +547,7 @@ body.logged-in.toolbar-horizontal .header-v2 {
 }
 
 .black-background a {
-  color: #80c341 !important;
+  color: #70E800 !important;
 }
 
 .ext-normal {
@@ -617,17 +617,17 @@ b, strong {
 }
 
 #edit-help-link {
-  background: #80c341;
+  background: #70E800;
   padding: 5px 20px;
   border-radius: 10px;
-  border: 1px solid #80c341;
+  border: 1px solid #70E800;
 }
 
 #edit-help-link:hover {
   background: #000;
   padding: 5px 20px;
   border-radius: 10px;
-  border: 1px solid #80c341;
+  border: 1px solid #70E800;
 }
 
 #edit-basic {
@@ -646,7 +646,7 @@ b, strong {
 }
 
 #edit-submit {
-  background: #80c341;
+  background: #70E800;
   color: #000;
   padding: 5px 30px;
   border-radius: 0;
@@ -663,12 +663,12 @@ label {
 }
 
 .box-content a {
-  color: #80c341
+  color: #70E800
 }
 
 .gav-help-region .messages__wrapper {
   padding: 10px;
-  border: 1px solid #80c341;
+  border: 1px solid #70E800;
   margin: 0 auto;
   max-width: 1170px;
   margin-bottom: 25px;
@@ -684,7 +684,7 @@ label {
 
 div#sliding-popup, div#sliding-popup .eu-cookie-withdraw-banner, .eu-cookie-withdraw-tab {
   background: rgba(0, 0, 0, .8);
-  border-top: 2px solid #80c341;
+  border-top: 2px solid #70E800;
 }
 .eu-cookie-compliance-content {
   margin: 0 auto;
@@ -703,12 +703,12 @@ div#sliding-popup, div#sliding-popup .eu-cookie-withdraw-banner, .eu-cookie-with
   overflow: visible;
   width: auto;
   box-shadow: none;
-  background-color: #80c341; !important;
+  background-color: #70E800; !important;
   background-image: none;
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
   border-radius: 6px;
-  border: 1px solid #80c341;;
+  border: 1px solid #70E800;;
   color: #000;
   font-family: Russo One !important;
   font-weight: normal;
