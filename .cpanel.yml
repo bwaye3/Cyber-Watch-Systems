@@ -4,6 +4,7 @@ deployment:
     - export DEPLOYPATH=/home/cyberwatchsystem/public_html
     - /bin/cp -R * $DEPLOYPATH
 
+
 #deployment:
 #tasks:
 #  - export DEPLOYPATH=/home/grassroot/public_html/staging  # Add /<app_folder> if required
