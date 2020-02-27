@@ -1,7 +1,26 @@
 /****/
 
+
+#footer .remove-bold .navigation .gva_menu > li li:nth-child(1) a,
+#footer .remove-bold .navigation .gva_menu > li li:nth-child(2) a {
+  font-weight: 300;
+}
+
+#footer .navigation .gva_menu > li:nth-child(1) a {
+  font-weight: 700 !important;
+}
+
+#footer .navigation .gva_menu > li li:nth-child(2) a {
+  font-weight: 300 !important;
+}
+
+.footer-second.col-xl-7.col-lg-7.col-md-12.col-sm-12.col-xs-12.column {
+  margin: 11px 0 0;
+}
+
 .breadcrumb-content-inner .gva-breadcrumb-content .page-title {
   line-height: 1.1;
+  letter-spacing: 2.5px;
 }
 
 .gsc-icon-box .highlight_content .title {
