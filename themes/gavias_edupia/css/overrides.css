@@ -192,13 +192,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff !important;
 }
 
-.text-green,
-.text-green p,
-.green-text,
-.green-text p,
-h1, h2, h3, h4, h5, h6 {
+.text-green, .text-green p, .green-text, .green-text p, h1, h2, h3, h4, h5, h6 {
   color: #70E800 !important;
   font-weight: bold;
+  letter-spacing: 2px;
 }
 
 h5 {
@@ -259,7 +256,8 @@ h5 {
   text-align: left !important;
   color: #fff !important;
   text-transform: inherit;
-  font-family: Acumin;
+  font-family: "Acumin Variable Concept" !important;
+  font-size: 16px !important;
 }
 
 .vertical-navigation .navigation .gva_menu > li > a:nth-child(1)  {
@@ -285,7 +283,7 @@ body.logged-in.toolbar-horizontal .header-v2 {
 }
 
 .vertical-navigation {
-  margin: 6px 0 0;
+  margin: 0;
 }
 
 /* Vet Nav 2 */
@@ -741,7 +739,7 @@ div#sliding-popup, div#sliding-popup .eu-cookie-withdraw-banner, .eu-cookie-with
 
  */
 #block-gavias-edupia-content h3 {
-  margin: 30px 0 0 0;
+  margin: 30px 0 10px;
   letter-spacing: 3px;
 }
 

@@ -407,12 +407,9 @@ body.boxed div.body-page {
 }
 
 body .body-page {
-  background-color: #b3b3b3;
-}
-
-body .body-page {
   background-color: #000;
   color: #b3b3b3;
+  font-family: "Acumin Variable Concept" !important;
 }
 
 body.boxed div.body-page {
@@ -1103,7 +1100,7 @@ header.header-v3 .header-inner {
 
 .footer .footer-center {
   padding: 40px 0;
-  border-top: 5px solid #b3b3b3;
+  border-top: 5px solid #6fe600;
 }
 
 .footer a {
