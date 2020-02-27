@@ -409,7 +409,7 @@ body.boxed div.body-page {
 body .body-page {
   background-color: #000;
   color: #b3b3b3;
-  font-family: "Acumin Variable Concept" !important;
+  font-family: "Acumin Variable Concept", "Roboto" , sans-serif !important;
 }
 
 body.boxed div.body-page {
@@ -1809,7 +1809,6 @@ body.maintenance-page {
 }
 
 .post-block .post-action a {
-
   font-weight: 600;
   font-size: 12px;
 }
@@ -4592,7 +4591,6 @@ body.maintenance-page {
   bottom: 0;
   right: 0;
   z-index: 1;
-  color: #222;
   color: #7e7e7e;
 }
 
@@ -4674,7 +4672,6 @@ body.maintenance-page {
 .course-block .course-content .course-footer .right a {
   font-weight: 500;
   color: #b3b3b3;
-  font-weight: 14px;
 }
 
 .course-block .course-content .course-footer .right a:hover {
@@ -6882,7 +6879,7 @@ body.maintenance-page {
   background: #f5f5f5;
   padding: 20px;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Acumin Variable Concept", "Roboto" , sans-serif !important;
 }
 
 .event-full .event-info .date > *, .event-full .event-info .address > * {
@@ -8823,7 +8820,7 @@ input[type="button"] .button--inverted, .btn .button--inverted, .btn-white .butt
 .comment__time {
   margin-bottom: 4px;
   color: #68696b;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Acumin Variable Concept", "Roboto" , sans-serif !important;
   font-size: 0.733em;
   line-height: 1.2;
 }
@@ -9104,7 +9101,7 @@ div.resizable-textarea textarea {
   display: inline-block;
   font-size: 12px;
   letter-spacing: 1px;
-  background: #b3b3b3;
+  background: #70e800;
   border: none;
   color: #000;
   text-transform: uppercase;
@@ -9123,7 +9120,8 @@ div.resizable-textarea textarea {
 }
 
 #search-block-form input.form-submit:hover {
-  background: #b3b3b3 !important;
+  background: #000 !important;
+  color: #70e800;
 }
 
 .contact-message-form {
@@ -9799,7 +9797,7 @@ div.resizable-textarea textarea {
 }
 
 .block.block-blocktabs .ui-widget {
-  font-family: "Roboto", sans-serif;
+  font-family: "Acumin Variable Concept", "Roboto" , sans-serif !important;
   font-size: 0.875rem;
 }
 
@@ -9826,7 +9824,7 @@ div.resizable-textarea textarea {
 .block.block-blocktabs .ui-tabs-nav > li > a {
   font-size: 14px;
   text-transform: none;
-  font-family: "Roboto", sans-serif;
+  font-family: "Acumin Variable Concept", "Roboto" , sans-serif !important;
   font-weight: 500;
 }
 
@@ -10370,8 +10368,8 @@ body.open-popup:after {
   }
 
   .navigation .gva_menu {
-    float: right;
-    position: relative;
+    /*float: right;
+    position: relative;*/
     font-size: 0;
   }
 
@@ -10648,7 +10646,7 @@ body.header-absolute .navigation ul.gva_menu > li > a {
 }
 
 .gva-mega-menu .block-blocktabs .ui-widget {
-  font-family: "Roboto", sans-serif;
+  font-family: "Acumin Variable Concept", "Roboto" , sans-serif !important;
   font-size: 0.875rem;
 }
 
@@ -10673,7 +10671,7 @@ body.header-absolute .navigation ul.gva_menu > li > a {
 .gva-mega-menu .block-blocktabs .ui-tabs-nav > li > a {
   font-size: 12px;
   text-transform: uppercase;
-  font-family: "Roboto", sans-serif;
+  font-family: "Acumin Variable Concept", "Roboto" , sans-serif !important;
   border-bottom: 1px solid #dee2e6;
   font-weight: 500;
   padding-bottom: 10px;
@@ -11170,7 +11168,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
 }
 
 .gavias-blockbuilder-content .link-edit-blockbuider {
-  border: 1px solid #dee2e6;
+  border: 1px solid #70e800;
   position: absolute;
   top: 50px;
   left: 0px;
@@ -11181,8 +11179,8 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
   -ms-transition: all 0.35s;
   -webkit-box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1);
-  background: #b3b3b3;
-  color: #b3b3b3;
+  background: #70e800;
+  color: #000;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 12px;
@@ -11191,7 +11189,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
 }
 
 .gavias-blockbuilder-content .link-edit-blockbuider:hover, .gavias-blockbuilder-content .link-edit-blockbuider:focus, .gavias-blockbuilder-content .link-edit-blockbuider:active {
-  color: #b3b3b3;
+  color: #fff;
 }
 
 .columns-box-shadow {
@@ -16193,6 +16191,6 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
 
 .gsc-icon-box .highlight_content .title {
   font-weight: 300 !important;
-  font-family: "Open Sans" !important;
+  font-family: "Acumin Variable Concept", "Roboto" , sans-serif !important;
   font-size: 12px !important;
 }

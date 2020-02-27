@@ -9,7 +9,7 @@
 }
 
 .navigation .gva_menu {
-  float: left;
+  /*float: left;*/
 }
 .navigation .gva_menu > li > a:hover,
 .navigation .gva_menu > li > a:focus {
@@ -145,7 +145,7 @@ footer .navigation .gva_menu > li > a {
   text-align: left;
   color: #b3b3b3;
   text-transform: initial;
-  font-family: Open Sans !important;
+   font-family: "Acumin Variable Concept", "Roboto" , sans-serif !important;
   letter-spacing: 0;
 }
 
@@ -195,7 +195,7 @@ h1, h2, h3, h4, h5, h6 {
 .text-green, .text-green p, .green-text, .green-text p, h1, h2, h3, h4, h5, h6 {
   color: #70E800 !important;
   font-weight: bold;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
 }
 
 h5 {
@@ -256,7 +256,7 @@ h5 {
   text-align: left !important;
   color: #fff !important;
   text-transform: inherit;
-  font-family: "Acumin Variable Concept" !important;
+  font-family: "Acumin Variable Concept", "Roboto" , sans-serif !important;
   font-size: 16px !important;
 }
 
@@ -314,7 +314,7 @@ body.logged-in.toolbar-horizontal .header-v2 {
   background: #000;
   border: 1px solid #70E800 !important;;
   text-transform: uppercase;
-  font-family: Open Sans !important;
+   font-family: "Acumin Variable Concept", "Roboto" , sans-serif !important;
   border-radius: 25px;
   margin: 0 0 12px;
   -webkit-transition: all 0.35s;
@@ -594,7 +594,7 @@ body.logged-in.toolbar-horizontal .header-v2 {
 
 .gsc-icon-box .highlight_content .title {
   font-weight: 300 !important;
-  font-family: "Open Sans" !important;
+   font-family: "Acumin Variable Concept", "Roboto" , sans-serif !important;
   font-size: 12px !important;
 }
 
@@ -620,10 +620,13 @@ b, strong {
 #block-gavias-edupia-mainnavigation .gva-navigation {
   margin: 0;
 }
+
+
 #block-gavias-edupia-mainnavigation.navigation .gva_menu {
-  float: left;
-  margin: 0 0 0 10%;
+  float: right;
+  margin: 0 70px 0 0;
 }
+
 .drupal-tabs {
   border-bottom: transparent;
 }
