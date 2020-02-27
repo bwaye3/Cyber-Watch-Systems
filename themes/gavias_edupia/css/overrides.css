@@ -1,3 +1,5 @@
+@import url(//db.onlinewebfonts.com/c/066ce24dae3730ed6c648b09efaea93a?family=Acumin+Variable+Concept);
+
 .path-search header .header-main {
   background: #262626;
 }
@@ -252,14 +254,22 @@ h5 {
 
 .vertical-navigation .navigation .gva_menu > li > a {
   display: block;
-  font-size: 16px !important;
   font-weight: 400 !important;
   padding: 4px 0;
   text-align: left !important;
   color: #fff !important;
   text-transform: inherit;
-  font-family: Open Sans !important;
+  font-family: Acumin;
 }
+
+.vertical-navigation .navigation .gva_menu > li > a:nth-child(1)  {
+  font-size: 28px;
+}
+
+.vertical-navigation .navigation .gva_menu > li > a:nth-child(2)  {
+  font-size: 16px !important;
+}
+
 
 .bright-white-text,
 .bright-white-text p {
@@ -731,8 +741,10 @@ div#sliding-popup, div#sliding-popup .eu-cookie-withdraw-banner, .eu-cookie-with
 
  */
 #block-gavias-edupia-content h3 {
-  margin: 30px 0;
+  margin: 30px 0 0 0;
+  letter-spacing: 3px;
 }
+
 /********/
 @media only screen and (max-width: 990px) {
   .box9 {margin-bottom: 20px}
