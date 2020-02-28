@@ -409,7 +409,9 @@ body.boxed div.body-page {
 body .body-page {
   background-color: #000;
   color: #b3b3b3;
-  font-family: "Acumin Variable Concept", "Roboto" , sans-serif !important;
+  font-family: "acumin-pro", "Roboto", sans-serif  !important;
+  font-style: normal;
+  font-weight: 100;
 }
 
 body.boxed div.body-page {

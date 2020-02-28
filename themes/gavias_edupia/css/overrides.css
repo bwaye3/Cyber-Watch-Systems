@@ -13,7 +13,7 @@
 }
 .navigation .gva_menu > li > a:hover,
 .navigation .gva_menu > li > a:focus {
-  color: #70E800 !important;
+  color: #70e800 !important;
   text-decoration: none !important;
 }
 
@@ -25,13 +25,13 @@
 }
 
 .navigation .gva_menu > li:hover > a {
-  color: #70E800;
+  color: #70e800;
   text-decoration: none !important;
 }
 
 .navigation .gva_menu > li > a:hover::before {
   content: '';
-  background: #70E800;
+  background: #70e800;
   width: 40px;
   height: 2px;
   position: absolute;
@@ -54,7 +54,7 @@
 
 .navigation .gva_menu .sub-menu a:hover,
 .navigation .gva_menu .sub-menu a:focus {
-  color: #70E800 !important;
+  color: #70e800 !important;
   text-decoration: none !important;
 }
 .navigation .gva_menu .sub-menu {
@@ -63,7 +63,7 @@
 }
 
 .block .block-title > span {
-  color: #70E800 !important;
+  color: #70e800 !important;
 }
 
 .footer {
@@ -87,7 +87,7 @@ footer .block .block-title > span {
 }
 
 .gva-search-region .icon {
-  color: #70E800 !important;
+  color: #70e800 !important;
 }
 
 .icon-line {
@@ -107,11 +107,11 @@ footer .block .block-title > span {
 }
 
 .green {
-  color: #70E800 !important;
+  color: #70e800 !important;
 }
 
 .phone-main {
-  color: #70E800 !important;
+  color: #70e800 !important;
   font-weight: 300 !important;
   margin: 0 0 0 10px;
   font-size: .7rem;
@@ -145,7 +145,7 @@ footer .navigation .gva_menu > li > a {
   text-align: left;
   color: #b3b3b3;
   text-transform: initial;
-   font-family: "Acumin Variable Concept", "Roboto" , sans-serif !important;
+  font-family: "acumin-pro", "Roboto", sans-serif !important;
   letter-spacing: 0;
 }
 
@@ -162,8 +162,8 @@ ul {
 }
 
 .gsc-column ul li::before {
-  content: "\25AA";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: #70E800; /* Change the color */
+  content: "\25AA"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #70e800; /* Change the color */
   font-weight: bold; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1em; /* Also needed for space (tweak if needed) */
@@ -193,7 +193,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .text-green, .text-green p, .green-text, .green-text p, h1, h2, h3, h4, h5, h6 {
-  color: #70E800 !important;
+  color: #70e800 !important;
   font-weight: bold;
   letter-spacing: 3px;
 }
@@ -207,15 +207,15 @@ h5 {
   font-size: .75rem !important;
   padding: 5px 35px;
   border-radius: 25px;
-  border: 1px solid #70E800 !important;
+  border: 1px solid #70e800 !important;
   margin: 10px 0 20px;
-  color: #70E800 !important;
+  color: #70e800 !important;
 }
 
 .gsc-button.medium:hover,
 .gsc-button.medium:focus {
-  background: #70E800 !important;
-  border: 1px solid #70E800 !important;
+  background: #70e800 !important;
+  border: 1px solid #70e800 !important;
   color: #000 !important;
   text-decoration: none !important;
 }
@@ -246,7 +246,7 @@ h5 {
 .vertical-navigation .navigation .gva_menu > li > a:hover::after {
   content: '>' ' Learn More';
   margin: 0 0 0 5px;
-  color: #70E800 !important;
+  color: #70e800 !important;
 }
 
 .vertical-navigation .navigation .gva_menu > li > a {
@@ -256,15 +256,15 @@ h5 {
   text-align: left !important;
   color: #fff !important;
   text-transform: inherit;
-  font-family: "Acumin Variable Concept", "Roboto" , sans-serif !important;
+  font-family: "acumin-pro", "Roboto", sans-serif !important;
   font-size: 16px !important;
 }
 
-.vertical-navigation .navigation .gva_menu > li > a:nth-child(1)  {
+.vertical-navigation .navigation .gva_menu > li > a:nth-child(1) {
   font-size: 28px;
 }
 
-.vertical-navigation .navigation .gva_menu > li > a:nth-child(2)  {
+.vertical-navigation .navigation .gva_menu > li > a:nth-child(2) {
   font-size: 16px !important;
 }
 
@@ -275,7 +275,7 @@ h5 {
 }
 .vertical-navigation .navigation .gva_menu > li > a:hover,
 .vertical-navigation .navigation .gva_menu > li > a:focus {
-  color: #70E800 !important;
+  color: #70e800 !important;
 }
 
 body.logged-in.toolbar-horizontal .header-v2 {
@@ -310,11 +310,11 @@ body.logged-in.toolbar-horizontal .header-v2 {
   font-weight: 400 !important;
   padding: 4px 30px;
   text-align: center !important;
-  color: #70E800 !important;
+  color: #70e800 !important;
   background: #000;
-  border: 1px solid #70E800 !important;;
+  border: 1px solid #70e800 !important;;
   text-transform: uppercase;
-   font-family: "Acumin Variable Concept", "Roboto" , sans-serif !important;
+  font-family: "acumin-pro", "Roboto", sans-serif !important;
   border-radius: 25px;
   margin: 0 0 12px;
   -webkit-transition: all 0.35s;
@@ -326,7 +326,7 @@ body.logged-in.toolbar-horizontal .header-v2 {
 .vertical-navigation-2 .navigation .gva_menu > li > a:hover,
 .vertical-navigation-2 .navigation .gva_menu > li > a:focus {
   color: #000 !important;
-  background: #70E800 !important;
+  background: #70e800 !important;
   -webkit-transition: all 0.35s;
   transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -334,7 +334,7 @@ body.logged-in.toolbar-horizontal .header-v2 {
 }
 .vertical-navigation-2 .navigation .gva_menu > li.menu-item--active-trail > a {
   color: #000 !important;
-  background: #70E800 !important;
+  background: #70e800 !important;
 }
 
 .green-border-top {
@@ -379,14 +379,14 @@ body.logged-in.toolbar-horizontal .header-v2 {
 
 .webform-submission-form .form-actions input.form-submit {
   background: #000 !important;
-  color: #70E800 !important;
-  border: 1px solid #70E800 !important;
+  color: #70e800 !important;
+  border: 1px solid #70e800 !important;
 }
 
 .webform-submission-form .form-actions input.form-submit:hover {
-  background: #70E800 !important;
+  background: #70e800 !important;
   color: #000 !important;
-  border: 1px solid #70E800 !important;
+  border: 1px solid #70e800 !important;
 }
 
 .webform-submission-form .form-item input,
@@ -415,14 +415,14 @@ body.logged-in.toolbar-horizontal .header-v2 {
 }
 
 .webform-submission-form .form-item select {
-  background-image: linear-gradient(45deg, transparent 50%, #70E800 50%), linear-gradient(135deg, #70E800 50%, transparent 50%), linear-gradient(to right, #70E800, #70E800);
+  background-image: linear-gradient(45deg, transparent 50%, #70e800 50%), linear-gradient(135deg, #70e800 50%, transparent 50%), linear-gradient(to right, #70e800, #70e800);
   background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
   background-size: 5px 5px, 5px 5px, 1px 1.5em;
   background-repeat: no-repeat;
   margin: 25px 0 0;
-  border: 1px solid #70E800;
+  border: 1px solid #70e800;
   background: #1a1a1a;
-  color: #70E800;
+  color: #70e800;
 }
 
 .webform-submission-form .form-actions {
@@ -445,7 +445,7 @@ body.logged-in.toolbar-horizontal .header-v2 {
   color: #fff !important;
 }
 .green-title {
-  color: #70E800 !important;
+  color: #70e800 !important;
 }
 
 .card:hover {
@@ -495,7 +495,7 @@ body.logged-in.toolbar-horizontal .header-v2 {
   font-weight: 600;
   margin: 0 !important;
   font-size: 35px;
-  color: #70E800 !important;
+  color: #70e800 !important;
 }
 
 .absolute-bottom {
@@ -541,7 +541,7 @@ body.logged-in.toolbar-horizontal .header-v2 {
   font-weight: 600;
   margin: 0 !important;
   font-size: 35px;
-  color: #70E800 !important;
+  color: #70e800 !important;
 }
 /**/
 .gsc-button.medium.w-100.text-align-right.no-border {
@@ -564,7 +564,7 @@ body.logged-in.toolbar-horizontal .header-v2 {
 }
 
 .black-background a {
-  color: #70E800 !important;
+  color: #70e800 !important;
 }
 
 .ext-normal {
@@ -594,7 +594,7 @@ body.logged-in.toolbar-horizontal .header-v2 {
 
 .gsc-icon-box .highlight_content .title {
   font-weight: 300 !important;
-   font-family: "Acumin Variable Concept", "Roboto" , sans-serif !important;
+  font-family: "acumin-pro", "Roboto", sans-serif !important;
   font-size: 12px !important;
 }
 
@@ -637,17 +637,17 @@ b, strong {
 }
 
 #edit-help-link {
-  background: #70E800;
+  background: #70e800;
   padding: 5px 20px;
   border-radius: 10px;
-  border: 1px solid #70E800;
+  border: 1px solid #70e800;
 }
 
 #edit-help-link:hover {
   background: #000;
   padding: 5px 20px;
   border-radius: 10px;
-  border: 1px solid #70E800;
+  border: 1px solid #70e800;
 }
 
 #edit-basic {
@@ -666,7 +666,7 @@ b, strong {
 }
 
 #edit-submit {
-  background: #70E800;
+  background: #70e800;
   color: #000;
   padding: 5px 30px;
   border-radius: 0;
@@ -683,12 +683,12 @@ label {
 }
 
 .box-content a {
-  color: #70E800
+  color: #70e800
 }
 
 .gav-help-region .messages__wrapper {
   padding: 10px;
-  border: 1px solid #70E800;
+  border: 1px solid #70e800;
   margin: 0 auto;
   max-width: 1170px;
   margin-bottom: 25px;
@@ -704,7 +704,7 @@ label {
 
 div#sliding-popup, div#sliding-popup .eu-cookie-withdraw-banner, .eu-cookie-withdraw-tab {
   background: rgba(0, 0, 0, .8);
-  border-top: 2px solid #70E800;
+  border-top: 2px solid #70e800;
 }
 .eu-cookie-compliance-content {
   margin: 0 auto;
@@ -723,12 +723,12 @@ div#sliding-popup, div#sliding-popup .eu-cookie-withdraw-banner, .eu-cookie-with
   overflow: visible;
   width: auto;
   box-shadow: none;
-  background-color: #70E800; !important;
+  background-color: #70e800; !important;
   background-image: none;
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
   border-radius: 6px;
-  border: 1px solid #70E800;;
+  border: 1px solid #70e800;;
   color: #000;
   font-family: Russo One !important;
   font-weight: normal;
@@ -745,7 +745,6 @@ div#sliding-popup, div#sliding-popup .eu-cookie-withdraw-banner, .eu-cookie-with
   margin: 30px 0 10px;
   letter-spacing: 3px;
 }
-
 /********/
 @media only screen and (max-width: 990px) {
   .box9 {margin-bottom: 20px}

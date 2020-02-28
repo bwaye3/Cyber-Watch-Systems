@@ -1,5 +1,7 @@
 /****/
 
+/***/
+@import url("https://use.typekit.net/vug0eeb.css");
 
 #footer .remove-bold .navigation .gva_menu > li li:nth-child(1) a,
 #footer .remove-bold .navigation .gva_menu > li li:nth-child(2) a {
@@ -25,11 +27,15 @@
 
 .gsc-icon-box .highlight_content .title {
   font-weight: 300 !important;
- font-family: "Acumin Variable Concept", "Roboto" , sans-serif !important;
+  /*font-family: "Roboto", "Acumin Variable Concept", sans-serif !important;*/
   font-size: 16px !important;
   color: #fff !important;
   letter-spacing: 1px;
   text-shadow: 1px 2px 2px rgba(0, 0, 0, 1);
+
+  font-family: "acumin-pro", "Roboto", sans-serif  !important;
+  font-style: normal;
+  font-weight: 100;
 }
 
 .page-user-login .main-page, .page-user-register .main-page, .page-user-pass .main-page {
@@ -260,9 +266,6 @@
   }
 }
 
-body {
-  font-size: 16px;
-}
 
 .gavias_sliderlayer .btn-slide.inner,
 .gavias_sliderlayer .btn-slide a,

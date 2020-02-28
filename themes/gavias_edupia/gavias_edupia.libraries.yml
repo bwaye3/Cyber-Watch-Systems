@@ -5,7 +5,6 @@ global-styling:
     theme:
       //fonts.googleapis.com/css?family=Montserrat:400,500,600,700: { type: external }
       //fonts.googleapis.com/css?family=Roboto:400,700: { type: external }
-      //db.onlinewebfonts.com/c/066ce24dae3730ed6c648b09efaea93a?family=Acumin+Variable+Concept" rel="stylesheet: { type: external }
       css/font-awesome/css/all.min.css: {}
       css/icon.css: {}
       css/animate.css: {}
