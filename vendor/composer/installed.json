@@ -2837,21 +2837,21 @@
     },
     {
         "name": "drupal/entity",
-        "version": "1.0.0-rc3",
-        "version_normalized": "1.0.0.0-RC3",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
         "source": {
             "type": "git",
             "url": "https://git.drupalcode.org/project/entity.git",
-            "reference": "8.x-1.0-rc3"
+            "reference": "8.x-1.0"
         },
         "dist": {
             "type": "zip",
-            "url": "https://ftp.drupal.org/files/projects/entity-8.x-1.0-rc3.zip",
-            "reference": "8.x-1.0-rc3",
-            "shasum": "6b4ccc0231c52ed9594502a0718057f53d98404d"
+            "url": "https://ftp.drupal.org/files/projects/entity-8.x-1.0.zip",
+            "reference": "8.x-1.0",
+            "shasum": "ac359ada43416ca3a8d0e44f2985b0a9fae07625"
         },
         "require": {
-            "drupal/core": "^8.6"
+            "drupal/core": "^8.7.7 || ^9"
         },
         "type": "drupal-module",
         "extra": {
@@ -2859,11 +2859,11 @@
                 "dev-1.x": "1.x-dev"
             },
             "drupal": {
-                "version": "8.x-1.0-rc3",
-                "datestamp": "1559579884",
+                "version": "8.x-1.0",
+                "datestamp": "1582735747",
                 "security-coverage": {
-                    "status": "not-covered",
-                    "message": "RC releases are not covered by Drupal security advisories."
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
                 }
             }
         },
@@ -4079,21 +4079,22 @@
     },
     {
         "name": "drupal/state_machine",
-        "version": "1.0.0-rc1",
-        "version_normalized": "1.0.0.0-RC1",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
         "source": {
             "type": "git",
             "url": "https://git.drupalcode.org/project/state_machine.git",
-            "reference": "8.x-1.0-rc1"
+            "reference": "8.x-1.0"
         },
         "dist": {
             "type": "zip",
-            "url": "https://ftp.drupal.org/files/projects/state_machine-8.x-1.0-rc1.zip",
-            "reference": "8.x-1.0-rc1",
-            "shasum": "bea94c4def643f60d3134f9c5d8495ddb56c93dd"
+            "url": "https://ftp.drupal.org/files/projects/state_machine-8.x-1.0.zip",
+            "reference": "8.x-1.0",
+            "shasum": "b39ca317ca8d9cd5c9ebcf720a84d44ca697d57f"
         },
         "require": {
-            "drupal/core": "~8.0"
+            "drupal/core": "^8.7.7 || ^9",
+            "php": ">=7.0.8"
         },
         "type": "drupal-module",
         "extra": {
@@ -4101,18 +4102,18 @@
                 "dev-1.x": "1.x-dev"
             },
             "drupal": {
-                "version": "8.x-1.0-rc1",
-                "datestamp": "1542124077",
+                "version": "8.x-1.0",
+                "datestamp": "1582902575",
                 "security-coverage": {
-                    "status": "not-covered",
-                    "message": "RC releases are not covered by Drupal security advisories."
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
                 }
             }
         },
         "installation-source": "dist",
         "notification-url": "https://packages.drupal.org/8/downloads",
         "license": [
-            "GPL-2.0-or-later"
+            "GPL-2.0+"
         ],
         "authors": [
             {
@@ -4169,7 +4170,7 @@
             }
         ],
         "description": "Provides code-driven workflow functionality.",
-        "homepage": "https://www.drupal.org/project/state_machine",
+        "homepage": "http://drupal.org/project/state_machine",
         "support": {
             "source": "https://git.drupalcode.org/project/state_machine"
         }
@@ -4660,17 +4661,17 @@
     },
     {
         "name": "drush/drush",
-        "version": "10.2.1",
-        "version_normalized": "10.2.1.0",
+        "version": "10.2.2",
+        "version_normalized": "10.2.2.0",
         "source": {
             "type": "git",
             "url": "https://github.com/drush-ops/drush.git",
-            "reference": "756e7a9e82bfe424f02ff5eb006bf514b9a4365d"
+            "reference": "8307a4e7dae9c63a279d8b59b9dca6c1973576c2"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/drush-ops/drush/zipball/756e7a9e82bfe424f02ff5eb006bf514b9a4365d",
-            "reference": "756e7a9e82bfe424f02ff5eb006bf514b9a4365d",
+            "url": "https://api.github.com/repos/drush-ops/drush/zipball/8307a4e7dae9c63a279d8b59b9dca6c1973576c2",
+            "reference": "8307a4e7dae9c63a279d8b59b9dca6c1973576c2",
             "shasum": ""
         },
         "require": {
@@ -4705,7 +4706,7 @@
             "squizlabs/php_codesniffer": "^2.7 || ^3",
             "vlucas/phpdotenv": "^2.4"
         },
-        "time": "2020-02-07T17:53:36+00:00",
+        "time": "2020-02-26T21:07:53+00:00",
         "bin": [
             "drush"
         ],
