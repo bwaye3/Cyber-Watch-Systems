@@ -185,13 +185,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff !important;
 }
 
-.white-text,
-.white-text p,
-h1, h2, h3, h4, h5, h6 {
-  color: #fff !important;
-}
-
-.text-green, .text-green p, .green-text, .green-text p, h1, h2, h3, h4, h5, h6 {
+.text-green,
+.text-green p,
+.green-text,
+.green-text p, h1, h2, h3, h4, h5, h6 {
   color: #70e800 !important;
   font-weight: bold;
   letter-spacing: 3px;
@@ -267,7 +264,6 @@ h5 {
   font-size: 16px !important;
 }
 
-
 .bright-white-text,
 .bright-white-text p {
   color: #fff !important;
@@ -336,9 +332,6 @@ body.logged-in.toolbar-horizontal .header-v2 {
   background: #70e800 !important;
 }
 
-.green-border-top {
-
-}
 .line-spacer {
   padding: 5px 0;
 }
@@ -404,7 +397,6 @@ body.logged-in.toolbar-horizontal .header-v2 {
 
 .webform-submission-form .form-item select {
   background: none;
-  border: none;
   border: 1px solid #888;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -484,7 +476,9 @@ body.logged-in.toolbar-horizontal .header-v2 {
   transition: background-color 1s ease-in-out;
 }
 
-.card {border-radius: 25px !important;}
+.card {
+  border-radius: 25px !important;
+}
 
 .box9 p {
   color: #b3b3b3 !important;
@@ -501,31 +495,35 @@ body.logged-in.toolbar-horizontal .header-v2 {
   position: absolute;
   bottom: 0;
 }
+
 /* Box 10 */
 .box10 {
   position: relative;
   margin: 0 0 25px;
 }
+
 .box10 img {
   width: 100%;
   height: auto;
   padding: 70px 50px;
   margin: 10px 0;
 }
+
 .box10:hover img {
   opacity: .5;
 }
+
 .box10 .card-img-overlay {
   padding: 30px 10px 30px 0;
   background: rgba(0, 0, 0, .65);
   position: absolute;
   top: 0;left: 0;bottom: 0;right: 0;opacity: 0;
 }
+
 .box10:hover .box-content {
   opacity: 1;
   background: rgba(0, 0, 0, 1);
   border-radius: 25px;
-
   -webkit-transition: background-color 1s ease-in-out;
   -moz-transition: background-color 1s ease-in-out;
   -o-transition: background-color 1s ease-in-out;
@@ -589,12 +587,6 @@ body.logged-in.toolbar-horizontal .header-v2 {
 .text-uppercase,
 .uppercase {
   text-transform: uppercase !important;
-}
-
-.gsc-icon-box .highlight_content .title {
-  font-weight: 300 !important;
-  font-family: "acumin-pro", "Roboto", sans-serif !important;
-  font-size: 12px !important;
 }
 
 .breadcrumb-content-inner .gva-breadcrumb-content .breadcrumb-links nav.breadcrumb {
@@ -675,6 +667,7 @@ b, strong {
 label {
   font-weight: 400;
 }
+
 .breadcrumb_subtitle {
   margin: 0 0 0 25px;
   font-size: 14px;
@@ -694,9 +687,11 @@ label {
   border-radius: 50px;
   text-align: center;
 }
+
 .messages:last-child {
   margin-bottom: 10px;
 }
+
 .messages:first-child {
   margin-top: 10px;
 }
@@ -705,6 +700,7 @@ div#sliding-popup, div#sliding-popup .eu-cookie-withdraw-banner, .eu-cookie-with
   background: rgba(0, 0, 0, .8);
   border-top: 2px solid #70e800;
 }
+
 .eu-cookie-compliance-content {
   margin: 0 auto;
   max-width: 80%;
@@ -737,7 +733,6 @@ div#sliding-popup, div#sliding-popup .eu-cookie-withdraw-banner, .eu-cookie-with
   text-shadow: none;
 }
 /*
-
 
  */
 #block-gavias-edupia-content h3 {
@@ -783,6 +778,7 @@ body,
 .gsc-column ul {
   font-family: "acumin-pro-wide",sans-serif !important;
 }
+
 footer p {
   margin-top: 0;
   margin-bottom: 0;
@@ -790,6 +786,7 @@ footer p {
   letter-spacing: 1px;
   font-family: "acumin-pro-wide",sans-serif !important;
 }
+
 @media (max-width: 991.98px) {
   header .area-main-menu .gva-search-region {
     position: absolute;
@@ -798,6 +795,7 @@ footer p {
     margin-top: 0;
     z-index: 9;
   }
+
   .phone-main {
     display: none;
   }
@@ -807,7 +805,7 @@ footer p {
   display: block;
   font-size: .7rem !important;
   font-weight: 400 !important;
-  padding: 2px 30px 4px 30px;
+  padding: 2px 20px 4px 20px;
   text-align: center !important;
   color: #70e800 !important;
   background: #000;
@@ -815,7 +813,6 @@ footer p {
   text-transform: uppercase;
   font-family: "acumin-pro", "Roboto", sans-serif !important;
   border-radius: 25px;
-  margin: 0 0 12px;
   -webkit-transition: all 0.35s;
   letter-spacing: 1px;
   transition: all 0.35s;
