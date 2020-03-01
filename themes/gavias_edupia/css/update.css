@@ -81,7 +81,6 @@
   font-weight: 400;
 }
 
-.page-node-185 .breadcrumb-subtitle,
 .page-node-194 .breadcrumb-subtitle,
 .page-node-195 .breadcrumb-subtitle,
 .page-node-196 .breadcrumb-subtitle,
@@ -89,6 +88,11 @@
 .page-node-198 .breadcrumb-subtitle {
   top: 160px !important;
   margin: 0 0 0 45% !important;
+}
+.page-node-185 .breadcrumb-subtitle {
+  top: 190px !important;
+  max-width: 50%;
+  margin: 0 0 0 15% !important;
 }
 
 
@@ -494,4 +498,8 @@ body, .node--view-mode-full p, p {
 #webform-submission-contact-node-200-add-form {
   max-width: 70%;
   margin: 0 auto;
+}
+
+.gsc-icon-box.icon-image.top-center .fa-4x .icon img {
+  margin-top: 25px;
 }

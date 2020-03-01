@@ -191,7 +191,7 @@ h1, h2, h3, h4, h5, h6 {
 .green-text p, h1, h2, h3, h4, h5, h6 {
   color: #70e800 !important;
   font-weight: bold;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
 }
 
 h5 {
@@ -406,14 +406,10 @@ body.logged-in.toolbar-horizontal .header-v2 {
 }
 
 .webform-submission-form .form-item select {
-  background-image: linear-gradient(45deg, transparent 50%, #70e800 50%), linear-gradient(135deg, #70e800 50%, transparent 50%), linear-gradient(to right, #70e800, #70e800);
-  background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
+ background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
   background-size: 5px 5px, 5px 5px, 1px 1.5em;
   background-repeat: no-repeat;
   margin: 25px 0 0;
-  border: 1px solid #70e800;
-  background: #1a1a1a;
-  color: #70e800;
 }
 
 .webform-submission-form .form-actions {
@@ -804,7 +800,7 @@ footer p {
 .vertical-navigation-2 .navigation .gva_menu > li > a {
   display: block;
   font-size: .7rem !important;
-  font-weight: 400 !important;
+  font-weight: 700 !important;
   padding: 2px 20px 4px 20px;
   text-align: center !important;
   color: #70e800 !important;
@@ -814,8 +810,56 @@ footer p {
   font-family: "acumin-pro", "Roboto", sans-serif !important;
   border-radius: 25px;
   -webkit-transition: all 0.35s;
-  letter-spacing: 1px;
+  letter-spacing: 1px !important;
   transition: all 0.35s;
   -moz-transition: all 0.35s;
   -ms-transition: all 0.35s;
+
+}
+
+.rev_slider > ul,
+.rev_slider_wrapper > ul,
+.tp-revslider-mainul > li,
+.rev_slider > ul > li,
+.rev_slider > ul > li::before,
+.tp-revslider-mainul > li::before,
+.tp-simpleresponsive > ul,
+.tp-simpleresponsive > ul > li,
+.tp-simpleresponsive > ul > li::before,
+.tp-revslider-mainul > li,
+.tp-simpleresponsive > ul > li {
+  font-family: "acumin-pro", "Roboto", sans-serif !important;
+  font-weight: lighter  !important;
+  letter-spacing: 1px !important;
+}
+
+.thin-font {
+  font-weight: lighter  !important;
+}
+
+.page-node-2 #block-gavias-edupia-content h3 {
+  margin: 30px 0 0px;
+  letter-spacing: 3px;
+}
+
+.wide-light {
+  letter-spacing: 1px !important;
+  font-family: "acumin-pro-wide",sans-serif !important;
+  font-size: 16px !important;
+  line-height: 1.5 !important;
+  margin: 10px 0 25px;
+}
+
+.gsc-button.medium, .gsc-button.medium a {
+  padding: 5px 35px 7px 35px;
+}
+
+.uppercase {
+  text-transform: uppercase !important;
+}
+
+.page-node-185 .breadcrumb-subtitle {
+  top: 190px !important;
+  max-width: 50%;
+  margin: 0 0 0 15% !important;
 }
