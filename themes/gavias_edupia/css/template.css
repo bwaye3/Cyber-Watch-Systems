@@ -10560,7 +10560,7 @@ body.open-popup:after {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     position: absolute;
     min-width: 280px;
-    background-color: #b3b3b3;
+    background-color: rgba(0,0,0,.7);
     z-index: 999;
     left: 0;
     top: 120%;
@@ -10583,7 +10583,6 @@ body.open-popup:after {
   .navigation .gva_menu .sub-menu > li {
     padding-left: 20px;
     padding-right: 20px;
-    background: rgba(0,0,0,.5);
   }
   .navigation .gva_menu .sub-menu > li > a {
     display: block;

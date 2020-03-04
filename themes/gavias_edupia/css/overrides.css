@@ -45,7 +45,6 @@
 
 .navigation .gva_menu .sub-menu,
 .navigation .gva_menu .sub-menu a {
-  background-color: rgba(0, 0, 0, 0.6);
   color: #fff !important;
   border-top: none;
   padding: 0 0 10px;
@@ -444,8 +443,7 @@ body.logged-in.toolbar-horizontal .header-v2 {
 .box9 img {
   width: 100%;
   height: auto;
-  padding: 15%;
-  /*margin: 10% 0;*/
+  margin: 10% 0;
 }
 
 .box9:hover img {
@@ -488,7 +486,7 @@ body.logged-in.toolbar-horizontal .header-v2 {
 .box9 .title {
   font-weight: 600;
   margin: 0 !important;
-  font-size: 35px;
+  font-size: 1.1rem;
   color: #70e800 !important;
   line-height: 1;
 }
