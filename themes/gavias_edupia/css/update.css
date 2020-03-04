@@ -453,7 +453,8 @@ ul[data-drupal-views-infinite-scroll-pager].pager a,
 .gsc-tabs .tabs_wrapper.tabs_vertical .nav-tabs > li a,
 .gva-offcanvas-mobile .gva-navigation .gva_menu > li > a,
 .gva-offcanvas-mobile .gva-navigation .gva_menu > li ul.menu.sub-menu li a {
-  font-family: Russo One;
+  font-family: "Russo One", sans-serif !important;
+  font-weight: 300 !important;
   letter-spacing: 3px;
 }
 
@@ -503,4 +504,9 @@ body, .node--view-mode-full p, p {
 
 .gsc-icon-box.icon-image.top-center .fa-4x .icon img {
   margin-top: 25px;
+}
+
+.gsc-button.medium, .gsc-button.medium a {
+  font-family: "Russo One", sans-serif !important;
+  font-weight: 300 !important;
 }

@@ -435,37 +435,38 @@ body.logged-in.toolbar-horizontal .header-v2 {
   color: #70e800 !important;
 }
 
-.card:hover {
-  -webkit-transition: box-shadow .45s;
-  transition: box-shadow .45s;
-  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
-}
 
 /*********************** Demo - 9 *******************/
 .box9 {
   position: relative;
-  margin: 0 0 25px;
 }
+
 .box9 img {
   width: 100%;
   height: auto;
-  padding: 80px;
-  margin: 10px 0;
+  padding: 15%;
+  /*margin: 10% 0;*/
 }
+
 .box9:hover img {
   opacity: .5;
 }
+
 .box9 .box-content {
   padding: 0;
   background: rgba(0, 0, 0, .65);
   position: absolute;
-  top: 0;left: 0;bottom: 0;right: 0;opacity: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
 }
+
 .box9:hover .box-content {
   opacity: 1;
   background: rgba(0, 0, 0, 1);
   border-radius: 25px;
-
   -webkit-transition: background-color 1s ease-in-out;
   -moz-transition: background-color 1s ease-in-out;
   -o-transition: background-color 1s ease-in-out;
@@ -474,6 +475,10 @@ body.logged-in.toolbar-horizontal .header-v2 {
 
 .card {
   border-radius: 25px !important;
+}
+
+.box9.card p {
+  line-height: 1.1 !important;
 }
 
 .box9 p {
@@ -485,6 +490,7 @@ body.logged-in.toolbar-horizontal .header-v2 {
   margin: 0 !important;
   font-size: 35px;
   color: #70e800 !important;
+  line-height: 1;
 }
 
 .absolute-bottom {

@@ -4,7 +4,7 @@ global-styling:
   css:
     theme:
       //fonts.googleapis.com/css?family=Montserrat:400,500,600,700: { type: external }
-      //fonts.googleapis.com/css?family=Roboto:400,700: { type: external }
+      //fonts.googleapis.com/css?family=Roboto:300,400,700: { type: external }
       css/font-awesome/css/all.min.css: {}
       css/icon.css: {}
       css/animate.css: {}
