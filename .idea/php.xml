@@ -92,4 +92,9 @@
       <interpreter id="1c55c619-6ea6-44c1-b888-2f6520164b88" name="PHP latest" home="$USER_HOME$/Library/Caches/PhpStorm2019.3/plugins/idea-php-latest-plugin/php-v7.3.1/php.sh" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/vendor/autoload.php" />
+    </phpunit_settings>
+  </component>
 </project>
