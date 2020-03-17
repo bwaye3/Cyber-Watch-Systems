@@ -478,7 +478,6 @@ ul[data-drupal-views-infinite-scroll-pager].pager a,
   font-weight: 100;
 }
 
-
 .acumin-pro,
 .acumin-pro p {
   font-family: "acumin-pro", "Roboto", sans-serif !important;
@@ -491,12 +490,12 @@ ul[data-drupal-views-infinite-scroll-pager].pager a,
 .vertical-navigation-2, #vertical-navigation {
   margin: 6px 35px 0 0 !important;
 }
+
 body, .node--view-mode-full p, p {
   letter-spacing: 1px;
-
-
   font-family: "acumin-pro-wide", "Roboto", sans-serif !important;
 }
+
 #webform-submission-contact-node-200-add-form {
   max-width: 70%;
   margin: 0 auto;
