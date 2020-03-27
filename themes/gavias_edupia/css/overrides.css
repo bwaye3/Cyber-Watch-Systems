@@ -168,6 +168,15 @@ ul {
   margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
 
+.gsc-column ul ul li::before {
+  content: "-";
+  color: #70e800;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
 footer .navigation .gva_menu > li > a:hover::before {
   display: none;
   text-decoration: underline !important;
