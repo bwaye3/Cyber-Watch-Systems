@@ -101,11 +101,6 @@ class ComposerStaticInitf0a76219c246ec6fe5f87782734a67c8
         array (
             'League\\Container\\' => 17,
         ),
-        'J' => 
-        array (
-            'JakubOnderka\\PhpConsoleHighlighter\\' => 35,
-            'JakubOnderka\\PhpConsoleColor\\' => 29,
-        ),
         'I' => 
         array (
             'Interop\\Container\\' => 18,
@@ -330,14 +325,6 @@ class ComposerStaticInitf0a76219c246ec6fe5f87782734a67c8
         'League\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/league/container/src',
-        ),
-        'JakubOnderka\\PhpConsoleHighlighter\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/jakub-onderka/php-console-highlighter/src',
-        ),
-        'JakubOnderka\\PhpConsoleColor\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/jakub-onderka/php-console-color/src',
         ),
         'Interop\\Container\\' => 
         array (
