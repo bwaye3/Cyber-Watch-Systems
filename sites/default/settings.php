@@ -520,7 +520,7 @@ if ($settings['hash_salt']) {
  * See https://www.drupal.org/documentation/modules/file for more information
  * about securing private files.
  */
-# $settings['file_private_path'] = '';
+ $settings['file_private_path'] = '/sites/default/files/private';
 
 /**
  * Temporary file path:
@@ -533,7 +533,7 @@ if ($settings['hash_salt']) {
  *
  * @see \Drupal\Component\FileSystem\FileSystem::getOsTemporaryDirectory()
  */
-# $settings['file_temp_path'] = '/tmp';
+ $settings['file_temp_path'] = '/tmp';
 
 /**
  * Session write interval:
@@ -650,7 +650,7 @@ if ($settings['hash_salt']) {
 /**
  * Load services definition file.
  */
-$settings['container_yamls'][] = $app_root . '/' . $site_path . '/services.yml';
+$settings['container_yamls'][] = DRUPAL_ROOT . '/sites/default/services.yml';
 
 /**
  * Override the default service container class.
@@ -739,7 +739,7 @@ $settings['entity_update_batch_size'] = 50;
  * well as the original entity type and field storage definitions should be
  * retained after a successful entity update process.
  */
-$settings['entity_update_backup'] = TRUE;
+$settings['entity_update_backup'] = FALSE;
 
 /**
  * Load local development override configuration, if available.
